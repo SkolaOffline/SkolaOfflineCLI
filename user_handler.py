@@ -16,7 +16,7 @@ class User():
                 'Authorization': f'Bearer {token_handler.get_token_from_file()}'
             })
 
-        if response.status_code == 401:
+        if response.status_code == 401 or response.status_code == 400:
             raise Exception('token expired')
         # todo dalo by se udělat, když nevyjde request, aby se podíval do cache, 
         # kam by se průběžně každý request ukládal
@@ -27,7 +27,7 @@ class User():
         self.ostatni = data
 
         self.personid = data['personID']
-        self.school_year_id = data['schoolYearID']
+        self.school_year_id = data['schoolYearId']
         self.modules = data['enabledModules']
         # todo vymyslet, jak to vlastně ukládat
     

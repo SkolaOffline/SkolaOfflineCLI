@@ -75,8 +75,8 @@ class Lesson():
 
 def lesson_parser(hodina):
     lesson = Lesson()
-    lesson.lesson_from = hodina['beginTime']
-    lesson.lesson_to = hodina['endTime']
+    lesson.lesson_from = hodina['lessonIdFrom']
+    lesson.lesson_to = hodina['lessonIdTo']
     lesson.lesson_type = hodina['hourType']['id']
     lesson.subject_abbrev = hodina['subject']['abbrev']
     lesson.subject_name = hodina['subject']['name']
@@ -98,13 +98,14 @@ class delUser():
         self.school_year_id = "E22086"
 
 def main():
-    timetable = timetable_week_parser(open('timetable_response.json', 'r').read())
-    for x, day in enumerate(timetable):
-        # print(day)
-        for lesson in timetable[x]:
-            print(lesson.subject_abbrev, end='\t')
+    # timetable = timetable_week_parser(open('timetable_response.json', 'r').read())
+    # for x, day in enumerate(timetable):
+    #     # print(day)
+    #     for lesson in timetable[x]:
+    #         print(lesson.subject_abbrev, end='\t')
 
-        print()
+    #     print()
+    pass
     # user = delUser()
     # print('Timetable')
     # out = get_timetable(user)
