@@ -1,0 +1,92 @@
+{
+    "userUID": "E1253/E2196244",
+    "organizationID": "E1253",
+    "personID": "E2196244",
+    "campaignCategoryCode": "eyJzaWQiOiIyMDAyNDciLCJ1dCI6OTAsInN5IjoxNH0=",
+    "class": {
+      "id": "E730557",
+      "abbrev": "V.A6",
+      "name": "V.A6"
+    },
+    "fullName": "David Alois Bureš",
+    "firstName": "David Alois",
+    "lastName": "Bureš",
+    "detailName": "žák",
+    "personsInitials": "DB",
+    "schoolOrganizationName": "Gymnázium, Olomouc - Hejčín, Tomkova 45",
+    "schoolType": "ss",
+    "userType": "student",
+    "userTypeText": "Žák (V.A6)",
+    "studyYear": 14,
+    "children": [],
+    "classTeacherClasses": [],
+    "deputyClassTeacherClasses": [],
+    "installType": "sol",
+    "language": "cs",
+    "schoolYearId": "E22086",
+    "enabledModules": [
+      {
+        "module": {
+          "moduleId": "api_dochazka_zak",
+          "moduleName": "Docházka - žáci/studenti"
+        },
+        "rights": []
+      },
+      {
+        "module": {
+          "moduleId": "api_dom_ukoly_zak",
+          "moduleName": "Úkoly"
+        },
+        "rights": []
+      },
+      {
+        "module": {
+          "moduleId": "api_hodn_predmet_zak",
+          "moduleName": "Hodnocení - žáci/studenti"
+        },
+        "rights": []
+      },
+      {
+        "module": {
+          "moduleId": "api_hodnoceni_zak",
+          "moduleName": "Hodnocení - žáci/studenti"
+        },
+        "rights": []
+      },
+      {
+        "module": {
+          "moduleId": "api_chovani_zak",
+          "moduleName": "Hodnocení - žáci/studenti"
+        },
+        "rights": []
+      },
+      {
+        "module": {
+          "moduleId": "api_rozvrh_zak",
+          "moduleName": "Standardní formuláře - studenti, rodiče"
+        },
+        "rights": []
+      },
+      {
+        "module": {
+          "moduleId": "api_vysvedceni_zak",
+          "moduleName": "Hodnocení - žáci/studenti"
+        },
+        "rights": []
+      },
+      {
+        "module": {
+          "moduleId": "api_zpravy_zak",
+          "moduleName": "Zprávy - přijaté a odeslané - studenti, rodiče"
+        },
+        "rights": []
+      },
+      {
+        "module": {
+          "moduleId": "api_omluvenky_zak",
+          "moduleName": "Omluvenky z pohledu žáka/studenta a rodiče"
+        },
+        "rights": []
+      }
+    ]
+  }
