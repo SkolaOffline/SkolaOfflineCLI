@@ -21,7 +21,10 @@ def main(args):
     user.get_data()
 
     if args.timetable:
-        printy.print_timetable(timetable.get_timetable(user.personid))
+        timetabl = timetable.timetable_week_parser(
+            open('timetable_response.json', 'r').read())
+
+        printy.print_timetable(timetabl)
         return
     
 
