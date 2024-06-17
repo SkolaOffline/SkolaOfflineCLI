@@ -31,11 +31,12 @@ def main(args):
 
     if args.timetable:
         timetabl = timetable.get_timetable(user)
-        # timetabl = timetable.timetable_week_parser(
-            # open('timetable_response.json', 'r').read())
-
         printy.print_timetable(timetabl)
         return
+
+    if args.marks:
+        # todo marks
+        pass
     
 
 

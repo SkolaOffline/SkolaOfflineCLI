@@ -17,6 +17,7 @@ def print_timetable(timetable):
         day_array[0] = dny[indx]
         for lesson in day:
             lesson_text = f'{lesson.subject_abbrev}\n{lesson.classroom_abbrev}\n{lesson.teacher_abbr}'
+            print(lesson.lesson_from, lesson.lesson_to)
             day_array[int(lesson.lesson_from)] = lesson_text
             day_array[int(lesson.lesson_to)] = lesson_text
 
@@ -30,8 +31,11 @@ def print_timetable(timetable):
 
 import timetable
 def main():
-    timetabl = timetable.timetable_week_parser(open('timetable_response.json', 'r').read())
-    print_timetable(timetabl)
+    pass
+    # user = 
+    # print_timetable(timetable.timetable_week_parser(timetable.get_timetable(user))) 
+    # # timetabl = timetable.timetable_week_parser(open('timetable_response.json', 'r').read())
+    # print_timetable(timetabl)
 
 if __name__ == '__main__':
     main()

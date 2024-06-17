@@ -35,7 +35,7 @@ def get_timetable(user):
                 'Authorization': f'Bearer {token_handler.get_token_from_file()}'
             })
 
-    print(r.status_code)
+    # print(r.status_code)
     timetable = timetable_week_parser(r.text)
     
     return timetable
@@ -80,11 +80,23 @@ class Lesson():
 def lesson_parser(hodina):
     lesson = Lesson()
     if hodina['hourType']['id'] == 'SKOLNI_AKCE':
+        # pass
+        # print()
+        # print(hodina)
+        # print()
         lesson.lesson_type = 'SKOLNI_AKCE'
-        lesson.lesson_from = hodina['lessonIdFrom']
-        lesson.lesson_to = hodina['lessonIdTo']
+        lesson.lesson_abbrev = 'SKOLNI_AKCE'
+        # lesson.lesson_from = hodina['lessonIdFrom']
+        try: lesson.lesson_to = int(hodina['lessonIdTo'])
+        except: lesson.lesson_to = 0
+        # lesson.lesson_to = hodina['lessonIdTo']
+        try: lesson.lesson_from = int(hodina['lessonIdTo'])
+        except: lesson.lesson_from = 0
         lesson.lesson_title = hodina['title']
+        lesson.classroom_abbrev = lesson.lesson_title
         lesson.lesson_description = hodina['description']
+
+
 
         return lesson
     
@@ -107,10 +119,10 @@ def lesson_parser(hodina):
 
 
 
-class delUser():
-    def __init__(self):
-        self.personid = "E2196244"
-        self.school_year_id = "E22086"
+# class delUser():
+#     def __init__(self):
+#         self.personid = "E2196244"
+#         self.school_year_id = "E22086"
 
 def main():
     # timetable = timetable_week_parser(open('timetable_response.json', 'r').read())
