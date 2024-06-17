@@ -1,3 +1,5 @@
+from tabulate import tabulate
+
 def print_modules(modules):
     for x, module in enumerate(modules):
         module = module['module']
@@ -8,22 +10,19 @@ def print_modules(modules):
     
 
 def print_timetable(timetable):
-    for x in range(1, 9):
-        print(f"{x:<15}", end='')
-    print()
-
-    # todo: fix this
-    # it's just horrible
-    for day in timetable:
+    week_array = [None]*5
+    dny = ['Pondělí', 'Úterý', 'Středa', 'Čtvrtek', 'Pátek']
+    for indx, day in enumerate(timetable):
+        day_array = ['']*10
+        day_array[0] = dny[indx]
         for lesson in day:
-            jak_dlouho = int(lesson.lesson_to) - int(lesson.lesson_from) + 1
-            print(lesson.subject_abbrev +\
-                  '.'*(15*jak_dlouho-len(lesson.subject_abbrev)-5)+\
-                  ' '*(5),
-                  end='')
+            lesson_text = f'{lesson.subject_abbrev}\n{lesson.classroom_abbrev}\n{lesson.teacher_abbr}'
+            day_array[int(lesson.lesson_from)] = lesson_text
+            day_array[int(lesson.lesson_to)] = lesson_text
 
-        print()
-    
+        week_array[indx] = day_array
+
+    print(tabulate(week_array, tablefmt='fancy_grid'))
 
 
 
