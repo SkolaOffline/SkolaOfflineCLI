@@ -7,8 +7,17 @@ import argparse
 import timetable
 
 parser = argparse.ArgumentParser(description='Skolni API')
-parser.add_argument('--login', help='runs the login process')
-parser.add_argument('--timetable', help='prints the timetable')
+parser.add_argument(
+    '--login', 
+    action='store_true', 
+    help='runs the login process'
+)
+parser.add_argument(
+    '--timetable', 
+    action='store_true', 
+    help='prints the timetable',
+    default=True
+)
 
 
 
@@ -21,8 +30,9 @@ def main(args):
     user.get_data()
 
     if args.timetable:
-        timetabl = timetable.timetable_week_parser(
-            open('timetable_response.json', 'r').read())
+        timetabl = timetable.get_timetable(user)
+        # timetabl = timetable.timetable_week_parser(
+            # open('timetable_response.json', 'r').read())
 
         printy.print_timetable(timetabl)
         return
