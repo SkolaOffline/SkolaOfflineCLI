@@ -69,7 +69,9 @@ class Lesson():
     subject_abbrev: str     = None
     subject_name: str       = None
     classroom: str          = None
+    classroom_abbrev: str   = None
     teacher: str            = None
+    teacher_abbr: str       = None
     lesson_order: int       = None
     lesson_title: str       = None
     lesson_description: str = None
@@ -85,16 +87,16 @@ def lesson_parser(hodina):
         lesson.lesson_description = hodina['description']
 
         return lesson
-        
-    print(hodina)
-    print('\n\n\n\n\n')
+    
     lesson.lesson_from = hodina['lessonIdFrom']
     lesson.lesson_to = hodina['lessonIdTo']
     lesson.lesson_type = hodina['hourType']['id']
     lesson.subject_abbrev = hodina['subject']['abbrev']
-    lesson.subject_name = hodina['subject']['name']
-    lesson.classroom = hodina['rooms'][0]['name'] # may (and will) fuck up [0]
-    lesson.teacher = hodina['teachers'][0]['displayName'] # -//-
+    # lesson.subject_name = hodina['subject']['name']
+    # lesson.classroom = hodina['rooms'][0]['name'] # may (and will) fuck up [0]
+    lesson.classroom_abbrev = hodina['rooms'][0]['abbrev']
+    # lesson.teacher = hodina['teachers'][0]['displayName'] # -//-
+    lesson.teacher_abbr = hodina['teachers'][0]['abbrev']
     lesson.lesson_order = hodina['detailHours'][0]['order'] #-//-
 
     return lesson
