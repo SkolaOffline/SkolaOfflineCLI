@@ -15,9 +15,13 @@ parser.add_argument(
 parser.add_argument(
     '--timetable', 
     action='store_true', 
-    help='prints the timetable',
-    default=True
+    help='prints the timetable'
 )
+parser.add_argument
+    '--marks',
+    action='store_true',
+    help='prints the marks'
+)   
 
 
 
