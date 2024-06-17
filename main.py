@@ -17,11 +17,12 @@ parser.add_argument(
     action='store_true', 
     help='prints the timetable'
 )
-parser.add_argument
+parser.add_argument(
     '--marks',
     action='store_true',
-    help='prints the marks'
-)   
+    help='prints the marks',
+    default=True,
+)
 
 
 
