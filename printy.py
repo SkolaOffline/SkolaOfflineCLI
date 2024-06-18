@@ -1,4 +1,6 @@
 from tabulate import tabulate
+import pyfiglet
+import datetime
 
 
 def print_modules(modules):
@@ -27,55 +29,37 @@ def print_timetable(timetable):
     print(tabulate(week_array, tablefmt="fancy_grid"))
 
 
-def print_marks(marks):
-    for mark in marks:
-        print(
-            mark.index_number,
-            "|",
-            mark.mark_date,
-            "|",
-            "Název:",
-            mark.theme,
-            "|",
-            "Hodnocení:",
-            mark.mark_text,
-            "|",
-            "Váha:",
-            mark.weight,
-            "|",
-            "Předmět zkratka:",
-            mark.subject_abbr,
-            "|",
-            "Předmět:",
-            mark.subject_name,
-        )
-    print()
+def print_marks(marks_in_subject):
+   for subject in marks_in_subject:
+        print(pyfiglet.figlet_format(subject.subject_name, width=180))
+        mark_array = []
+        mark_array.append(['indx', 'date', 'theme', 'value', 'weight', 'class_average'])
+        for indx, mark in enumerate(subject.marks):
+            arr = [
+                indx,
+                mark.mark_date,
+                mark.theme,
+                mark.mark_value,
+                mark.weight,
+                mark.class_average
+            ]
+            mark_array.append(arr)
+        print(tabulate(mark_array, tablefmt='fancy_grid'))
 
 
-def print_messages(messages):
-    for message in messages:
-        print(
-            message.send_date,
-            "|",
-            "Odesílatel:",
-            message.sender,
-            "|",
-            "Zpráva:",
-            message.title,
-            "|",
-            message.text,
-            "|",
-            "Přílohy:",
-            message.attachments,
-            "\n",
-            "----------------------------------------------------------------------------------------------",
-            "\n",
-        )
-    print()
+
 
 
 def main():
-    pass
+    import marks
+    import user_handler
+    import requests
+    import pyfiglet
+
+    user = user_handler.User()
+    user.get_data()
+
+    print_marks(marks.all_marks_parser(marks.get_marks_download(user)))
     # user =
     # print_timetable(timetable.timetable_week_parser(timetable.get_timetable(user)))
     # # timetabl = timetable.timetable_week_parser(open('timetable_response.json', 'r').read())
