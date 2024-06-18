@@ -1,3 +1,9 @@
+from dataclasses import dataclass
+import requests
+import token_handler
+import json
+
+
 def get_marks_download(user):
     r = requests.get(
         f'https://aplikace.skolaonline.cz/solapi/api/v1/students/{user.personid}/marks/bySubject',
@@ -21,6 +27,7 @@ class Mark():
         except: self.mark_value = None
         self.weight = weight
         self.class_average = class_average
+
 
 
 
