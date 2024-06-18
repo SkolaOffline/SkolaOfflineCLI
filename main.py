@@ -17,7 +17,6 @@ parser.add_argument(
     "--marks",
     action="store_true",
     help="prints the marks",
-    default=True,
 )
 
 
