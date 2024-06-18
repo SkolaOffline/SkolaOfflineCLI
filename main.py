@@ -5,25 +5,20 @@ import user_handler
 import printy
 import argparse
 import timetable
+import marks
 
-parser = argparse.ArgumentParser(description='Skolni API')
+parser = argparse.ArgumentParser(description="Skolni API")
+parser.add_argument("-l", "--login", action="store_true", help="runs the login process")
 parser.add_argument(
-    '--login', 
-    action='store_true', 
-    help='runs the login process'
+    "-t", "--timetable", action="store_true", help="prints the timetable"
 )
 parser.add_argument(
-    '--timetable', 
-    action='store_true', 
-    help='prints the timetable'
-)
-parser.add_argument(
-    '--marks',
-    action='store_true',
-    help='prints the marks',
+    "-m",
+    "--marks",
+    action="store_true",
+    help="prints the marks",
     default=True,
 )
-
 
 
 def main(args):
@@ -40,10 +35,10 @@ def main(args):
         return
 
     if args.marks:
-        # todo marks
-        pass
-    
+        mark = marks.get_marks(user)
+        printy.print_marks(mark)
+        return
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main(args=parser.parse_args())
