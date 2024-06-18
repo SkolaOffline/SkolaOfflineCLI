@@ -52,7 +52,26 @@ def print_marks(marks):
     print()
 
 
-import timetable
+def print_messages(messages):
+    for message in messages:
+        print(
+            message.send_date,
+            "|",
+            "Odesílatel:",
+            message.sender,
+            "|",
+            "Zpráva:",
+            message.title,
+            "|",
+            message.text,
+            "|",
+            "Přílohy:",
+            message.attachments,
+            "\n",
+            "----------------------------------------------------------------------------------------------",
+            "\n",
+        )
+    print()
 
 
 def main():
