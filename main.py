@@ -8,8 +8,16 @@ import timetable
 import marks
 import absences
 
+
+# Parser argumentů, pro help main.py -h
 parser = argparse.ArgumentParser(description="Skolni API")
 parser.add_argument("-l", "--login", action="store_true", help="runs the login process")
+parser.add_argument(
+    "-r",
+    "--refreshlogin",
+    action="store_true",
+    help="tries to run the login process using stored refresh token",
+)
 parser.add_argument(
     "-t", "--timetable", action="store_true", help="prints the timetable"
 )
@@ -27,11 +35,16 @@ parser.add_argument(
 )
 
 
+# hlavní funkce, která zpracovává argumenty
 def main(args):
     if args.login:
         token_handler.token_login()
         return
 
+    if args.refreshlogin:
+        token_handler.refresh_login()
+        return
+    # získání dat uživatele, provede se vždy
     user = user_handler.User()
     user.get_data()
 
