@@ -33,11 +33,11 @@ def print_marks(marks_in_subject):
    for subject in marks_in_subject:
         print(pyfiglet.figlet_format(subject.subject_name, width=180))
         mark_array = []
-        mark_array.append(['indx', 'date', 'theme', 'value', 'weight', 'class_average'])
         for indx, mark in enumerate(subject.marks):
+            mark_date = datetime.datetime.strptime(mark.mark_date.split("T")[0], "%Y-%m-%d")  # Convert mark_date to datetime object
             arr = [
                 indx,
-                mark.mark_date,
+                mark_date.strftime("%m-%d"),  # Use mark_date instead of mark.mark_date
                 mark.theme,
                 mark.mark_value,
                 mark.weight,
