@@ -18,6 +18,21 @@ def get_messages_download(user):
             "dateTo": formated_date(time.time()),
         },
     )
+    # if unauthorized or bad credentials tries to get a new token from the refresh token
+    if r.status_code == 401 or r.status_code == 400:
+        token_handler.write_token_to_file_from_refresh_token()
+        r = requests.get(
+            f"https://aplikace.skolaonline.cz/solapi/api/v1/messages/received",
+            headers={"Authorization": f"Bearer {token_handler.get_token_from_file()}"},
+            params={
+                "dateFrom": formated_date(
+                    time.time() - 60 * 60 * 24 * 31
+                ),  # 31 dní => zprávy za poslední měsíc
+                "dateTo": formated_date(time.time()),
+            },
+        )
+        if r.status_code == 401 or r.status_code == 400:
+            raise Exception("token expired")
 
     # # print(r.text)
     # txt = r.text
