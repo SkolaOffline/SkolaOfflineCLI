@@ -65,7 +65,7 @@ def write_token_to_file(uzivatel, heslo):
 
 
 # writes both tokens to a file called token, gets the tokens from the get_token_from_refresh_token() function independently
-def write_token_to_file():
+def write_token_to_file_from_refresh_token():
     access_token, refresh_token = get_token_from_refresh_token()
     open("token", "w").write(access_token + "\n" + refresh_token)
 
@@ -79,7 +79,7 @@ def token_login():
 # tries to login using refresh token and writes the tokens to a file
 def refresh_login():
     refresh_token = open("token", "r").read().split("\n")[1]
-    write_token_to_file()
+    write_token_to_file_from_refresh_token()
 
 
 # returns the access token from the file
