@@ -2,7 +2,7 @@ import requests
 from dataclasses import dataclass
 import json
 import token_handler
-import time, datetime
+import time
 
 
 # getuje data o absencích a vrací json jako text (string)
