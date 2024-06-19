@@ -4,20 +4,23 @@ import token_handler
 from dataclasses import dataclass
 
 
+# user class
 class User:
     def __init__(self):
         # todo hardcoded for testing
         self.personid = "E2196244"
         self.school_year_id = "E22086"
 
+    # gets data of the user
     def get_data(self):
         response = requests.get(
             "https://aplikace.skolaonline.cz/solapi/api/v1/user",
             headers={"Authorization": f"Bearer {token_handler.get_token_from_file()}"},
         )
 
+        # if unauthorized or bad credentials tries to get a new token from the refresh token
         if response.status_code == 401 or response.status_code == 400:
-            token_handler.get_token_from_refresh_token()
+            token_handler.write_token_to_file()
             response = requests.get(
                 "https://aplikace.skolaonline.cz/solapi/api/v1/user",
                 headers={
