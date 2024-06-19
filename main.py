@@ -49,6 +49,7 @@ def main(args):
     if args.refreshlogin:
         token_handler.refresh_login()
         return
+
     # získání dat uživatele, provede se vždy
     user = user_handler.User()
     user.get_data()

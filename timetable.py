@@ -42,6 +42,20 @@ def get_timetable(user):
         },
         headers={"Authorization": f"Bearer {token_handler.get_token_from_file()}"},
     )
+    # if unauthorized or bad credentials tries to get a new token from the refresh token
+    if r.status_code == 401 or r.status_code == 400:
+        token_handler.write_token_to_file_from_refresh_token()
+        r = requests.get(
+            "https://aplikace.skolaonline.cz/solapi/api/v1/timeTable",
+            params={
+                "studentId": user.personid,
+                "dateFrom": date_from(),
+                "dateTo": date_to(),
+                "schoolYearId": user.school_year_id,
+            },
+        )
+        if r.status_code == 401 or r.status_code == 400:
+            raise Exception("token expired")
 
     # print(r.status_code)
     timetable = timetable_week_parser(r.text)
