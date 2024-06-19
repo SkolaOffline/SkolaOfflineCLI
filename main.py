@@ -34,8 +34,8 @@ def main(args):
         return
 
     if args.marks:
-        mark = marks.get_marks(user)
-        printy.print_marks(mark)
+        marks_in_subject = marks.all_marks_parser(marks.get_marks_download(user))
+        printy.print_marks(marks_in_subject)
         return
 
 
