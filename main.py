@@ -6,6 +6,7 @@ import printy
 import argparse
 import timetable
 import marks
+import absences
 
 parser = argparse.ArgumentParser(description="Skolni API")
 parser.add_argument("-l", "--login", action="store_true", help="runs the login process")
@@ -17,6 +18,12 @@ parser.add_argument(
     "--marks",
     action="store_true",
     help="prints the marks",
+)
+parser.add_argument(
+    "-a",
+    "--absences",
+    action="store_true",
+    help="prints the absences",
 )
 
 
@@ -36,6 +43,11 @@ def main(args):
     if args.marks:
         marks_in_subject = marks.all_marks_parser(marks.get_marks_download(user))
         printy.print_marks(marks_in_subject)
+        return
+
+    if args.absences:
+        absence = absences.absences_parser(absences.get_absences_download(user))
+        printy.print_absences(absence)
         return
 
 

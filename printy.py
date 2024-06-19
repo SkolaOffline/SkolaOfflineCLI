@@ -1,6 +1,8 @@
 from tabulate import tabulate
+import token_handler
 import pyfiglet
 import datetime
+import absences
 
 
 def print_modules(modules):
@@ -27,6 +29,20 @@ def print_timetable(timetable):
         week_array[indx] = day_array
 
     print(tabulate(week_array, tablefmt="fancy_grid"))
+
+def print_absences(absences):
+    day_array = []
+    for date, day in absences.items():
+        day_array.append([
+            date,
+            day.excused,
+            day.unexcused,
+            day.notcounted,
+            day.unevaluated,
+            day.unevaluated_with_apology
+        ])
+
+    print(tabulate(day_array, tablefmt='fancy_grid'))
 
 
 def print_marks(marks_in_subject):
@@ -56,10 +72,11 @@ def main():
     import requests
     import pyfiglet
 
+
     user = user_handler.User()
     user.get_data()
 
-    print_marks(marks.all_marks_parser(marks.get_marks_download(user)))
+    print_absences(absences.absences_parser(absences.get_absences_download(user)))
     # user =
     # print_timetable(timetable.timetable_week_parser(timetable.get_timetable(user)))
     # # timetabl = timetable.timetable_week_parser(open('timetable_response.json', 'r').read())
