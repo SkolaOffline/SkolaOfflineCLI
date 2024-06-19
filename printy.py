@@ -56,6 +56,7 @@ def print_absences(absences):
 def print_marks(marks_in_subject):
     for subject in marks_in_subject:
         print(pyfiglet.figlet_format(subject.subject_name, width=180))
+        print("Průměr: ", subject.marks_avg, "\n")
         mark_array = []
         for indx, mark in enumerate(subject.marks):
             mark_date = datetime.datetime.strptime(
