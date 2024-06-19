@@ -1,4 +1,5 @@
 import requests
+import logging
 
 
 def get_token(uzivatel, heslo):
@@ -16,7 +17,11 @@ def get_token(uzivatel, heslo):
 
     if response.status_code == 401:
         raise Exception("Nesprávné uživatelské jméno nebo heslo")
-    elif response.status_code != 200:
+    elif response.status_code == 400:
+        logging.warning("Token expired, trying to get new one from refresh token")
+        response = get_refresh_token_from_file()
+
+    if response.status_code != 200:
         raise Exception(f"{response.status_code} ({response.text})")
 
     access_token = response.json()["access_token"]
