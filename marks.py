@@ -26,9 +26,10 @@ def get_marks_download(user):
 
 # class pro známky v jednotlivých předmětech
 class MarksInSubject:
-    def __init__(self, subject_name):
+    def __init__(self, subject_name, marks_avg):
         self.subject_name = subject_name
         self.marks = []
+        self.marks_avg = marks_avg
 
 
 # class pro známku
@@ -40,7 +41,7 @@ class Mark:
             self.mark_value = int(markText)
         except:
             self.mark_value = None
-        self.weight = weight
+        self.weight = float(weight)
         self.class_average = class_average
 
 
@@ -50,7 +51,9 @@ def all_marks_parser(jsn):
     # jsn = jsn[0]
     marks = []
     for subject in jsn:
-        marks_in_subject = MarksInSubject(subject["subject"]["name"])
+        marks_in_subject = MarksInSubject(
+            subject["subject"]["name"], subject["averageText"]
+        )
         for mark in subject["marks"]:
             marks_in_subject.marks.append(
                 Mark(
