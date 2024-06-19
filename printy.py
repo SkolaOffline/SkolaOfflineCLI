@@ -20,7 +20,7 @@ def print_timetable(timetable):
         day_array[0] = dny[indx]
         for lesson in day:
             lesson_text = f"{lesson.subject_abbrev}\n{lesson.classroom_abbrev}\n{lesson.teacher_abbr}"
-            print(lesson.lesson_from, lesson.lesson_to)
+            # print(lesson.lesson_from, lesson.lesson_to)
             day_array[int(lesson.lesson_from)] = lesson_text
             day_array[int(lesson.lesson_to)] = lesson_text
 
