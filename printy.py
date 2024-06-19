@@ -1,8 +1,6 @@
 from tabulate import tabulate
-import token_handler
 import pyfiglet
 import datetime
-import absences
 
 # třída pro printování
 
@@ -73,6 +71,28 @@ def print_marks(marks_in_subject):
             ]
             mark_array.append(arr)
         print(tabulate(mark_array, tablefmt="fancy_grid"))
+
+
+def print_messages(messages):
+    for message in messages:
+        print(
+            message.send_date,
+            "|",
+            "Odesílatel:",
+            message.sender,
+            "|",
+            "Zpráva:",
+            message.title,
+            "|",
+            message.text,
+            "|",
+            "Přílohy:",
+            message.attachments,
+            "\n",
+            "----------------------------------------------------------------------------------------------",
+            "\n",
+        )
+    print()
 
 
 # def main():

@@ -1,12 +1,11 @@
-import requests
 import token_handler
-import json
 import user_handler
 import printy
 import argparse
 import timetable
 import marks
 import absences
+import messages
 
 
 # Parser argumentů, pro help main.py -h
@@ -32,6 +31,12 @@ parser.add_argument(
     "--absences",
     action="store_true",
     help="prints the absences",
+)
+parser.add_argument(
+    "-z",
+    "--messages",
+    action="store_true",
+    help="prints the messages",
 )
 
 
@@ -61,6 +66,11 @@ def main(args):
     if args.absences:
         absence = absences.absences_parser(absences.get_absences_download(user))
         printy.print_absences(absence)
+        return
+
+    if args.messages:
+        message = messages.message_parser(messages.get_messages_download(user))
+        printy.print_messages(message)
         return
 
 
