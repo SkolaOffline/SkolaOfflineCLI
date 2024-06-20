@@ -4,12 +4,16 @@ import logging
 
 # získání tokenu
 def get_token(uzivatel, heslo):
+    uzivatel = uzivatel.strip()
+    heslo = heslo.strip()
     # zkusikm refresh token
     refresh_token = get_refresh_token_from_file()
-    if refresh_token is not None:
+    if refresh_token != '':
         response = get_token_from_refresh_token()
-        print('here')
-    elif refresh_token is None:
+        # print(response)
+        # print('here')
+    elif refresh_token == '':
+        # print(uzivatel, heslo)
         response = requests.post(
             "https://aplikace.skolaonline.cz/solapi/api/connect/token",
             headers={"Content-Type": "application/x-www-form-urlencoded"},
