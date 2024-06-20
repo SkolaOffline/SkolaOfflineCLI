@@ -4,32 +4,30 @@ import logging
 
 # získání tokenu
 def get_token(uzivatel, heslo):
-    response = requests.post(
-        "https://aplikace.skolaonline.cz/solapi/api/connect/token",
-        headers={"Content-Type": "application/x-www-form-urlencoded"},
-        data={
-            "grant_type": "password",
-            "username": uzivatel,
-            "password": heslo,
-            "client_id": "test_client",
-            "scope": "openid offline_access profile sol_api",
-        },
-    )
-
-    if response.status_code == 401:
-        raise Exception("Nesprávné uživatelské jméno nebo heslo")
-    elif response.status_code == 400:
-        logging.warning("Token expired, trying to get new one from refresh token")
+    # zkusikm refresh token
+    refresh_token = get_refresh_token_from_file()
+    if refresh_token is not None:
         response = get_token_from_refresh_token()
-        # pokusí se získat nový token z refresh tokenu
+        print('here')
+    elif refresh_token is None:
+        response = requests.post(
+            "https://aplikace.skolaonline.cz/solapi/api/connect/token",
+            headers={"Content-Type": "application/x-www-form-urlencoded"},
+            data={
+                "grant_type": "password",
+                "username": uzivatel,
+                "password": heslo,
+                "client_id": "test_client",
+                "scope": "openid offline_access profile sol_api",
+            },
+        )
+
 
     if response.status_code != 200:
         raise Exception(f"{response.status_code} ({response.text})")
-
-    # gets the token and refresh token from the response json
+    
     access_token = response.json()["access_token"]
     refresh_token = response.json()["refresh_token"]
-    print(f'token expires in: {response.json()["expires_in"]}')
 
     # returns the tokens
     return access_token, refresh_token
@@ -38,6 +36,10 @@ def get_token(uzivatel, heslo):
 # tries to get a new token from the refresh token
 def get_token_from_refresh_token():
     refresh_token = get_refresh_token_from_file()
+    if refresh_token == '':
+        return None
+    logging.info("Trying to get new token from refresh token")
+    logging.info(refresh_token)
     response = requests.post(
         "https://aplikace.skolaonline.cz/solapi/api/connect/token",
         headers={"Content-Type": "application/x-www-form-urlencoded"},
@@ -49,13 +51,15 @@ def get_token_from_refresh_token():
         },
     )
 
-    if response.status_code != 200:
-        raise Exception(f"{response.status_code} ({response.text})")
+    return response
 
-    access_token = response.json()["access_token"]
-    refresh_token = response.json()["refresh_token"]
+    # if response.status_code != 200:
+    #     raise Exception(f"{response.status_code} ({response.text})")
 
-    return access_token, refresh_token
+    # access_token = response.json()["access_token"]
+    # refresh_token = response.json()["refresh_token"]
+
+    # return access_token, refresh_token
 
 
 # writes both tokens to a file called token, gets the tokens from the get_token() function independently
@@ -89,4 +93,8 @@ def get_token_from_file():
 
 # returns the refresh token from the file
 def get_refresh_token_from_file():
-    return open("token", "r").read().split("\n")[1]
+    try:
+        return open("token", "r").read().split("\n")[1]
+    except:
+        return None
+    # return open("token", "r").read().split("\n")[1]
