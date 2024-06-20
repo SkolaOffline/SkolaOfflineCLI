@@ -9,6 +9,7 @@ import argparse
 import timetable
 import marks
 import absences
+import messages
 
 parser = argparse.ArgumentParser(description="Skolni API")
 parser.add_argument("-l", "--login", action="store_true", help="runs the login process")
@@ -27,6 +28,26 @@ parser.add_argument(
     action="store_true",
     help="prints the absences",
 )
+parser.add_argument(
+    "-z",
+    "--messages",
+    action="store_true",
+    help="prints the absences",
+)
+parser.add_argument(
+    "-k",
+    "--message",
+    help="show a specific message by its index in --messages",
+    action='store',
+    type=int,
+    default=None
+) # parser.add_argument(
+#     '-o',
+#     '--logout',
+#     action='store_true',
+#     help='logs out the user'
+# )
+
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -38,6 +59,10 @@ def main(args):
 
     user = user_handler.User()
     user.get_data()
+
+    # if args.logout:
+    #     token_handler.token_logout()
+    #     return
 
     if args.timetable:
         timetabl = timetable.get_timetable(user)
@@ -52,6 +77,19 @@ def main(args):
     if args.absences:
         absence = absences.absences_parser(absences.get_absences_download(user))
         printy.print_absences(absence)
+        return
+
+    if args.messages:
+        printy.print_messages(
+            messages.message_parser(messages.get_messages_download(user))
+        )
+        return
+    
+    if args.message:
+        printy.print_one_message(
+            user,
+            args.message
+        )
         return
 
 

@@ -1,6 +1,8 @@
 from tabulate import tabulate
 import pyfiglet
 import datetime
+import messages
+from bs4 import BeautifulSoup
 
 # třída pro printování
 
@@ -77,25 +79,23 @@ def print_marks(marks_in_subject):
 
 
 def print_messages(messages):
-    for message in messages:
-        print(
-            message.send_date,
-            "|",
-            "Odesílatel:",
-            message.sender,
-            "|",
-            "Zpráva:",
-            message.title,
-            "|",
-            message.text,
-            "|",
-            "Přílohy:",
-            message.attachments,
-            "\n",
-            "----------------------------------------------------------------------------------------------",
-            "\n",
-        )
-    print()
+    prnt = [['', 'send_date', 'sender', 'title']]
+    for indx, message in enumerate(messages):
+        prnt.append([indx, message.send_date, message.sender, message.title])
+
+    print(tabulate(prnt, tablefmt="fancy_grid"))
+
+
+def print_one_message(user, indx):
+    message = messages.message_parser(messages.get_messages_download(user))[indx]
+    print(f"From: {message.sender}")
+    print(f"Date: {message.send_date}")
+    print(f"Title: {message.title}")
+    soup = BeautifulSoup(message.text, 'html.parser')
+    text = soup.get_text()
+    print(f"Text: {text}")
+
+
 
 
 # def main():

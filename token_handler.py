@@ -1,5 +1,7 @@
 import requests
 import logging
+import token_handler
+import requests
 
 
 # získání tokenu
@@ -102,3 +104,19 @@ def get_refresh_token_from_file():
     except:
         return None
     # return open("token", "r").read().split("\n")[1]
+# def token_logout():
+#     response = requests.post(
+#         "https://aplikace.skolaonline.cz/solapi/api/v1/user/logout",
+#         headers={"Authorization": f"Bearer {get_token_from_file()}"},
+#         # headers={"Authorization": f"Bearer {token_handler.get_token_from_file()}"},
+#         # data={
+#             # "grant_type": "refresh_token",
+#             # "refresh_token": refresh_token,
+#             # "client_id": "test_client",
+#             # "scope": "offline_access sol_api",
+#         # },
+#     )
+
+#     if response.status_code != 200:
+#         raise Exception(f"{response.status_code} ({response.text})")
+    
