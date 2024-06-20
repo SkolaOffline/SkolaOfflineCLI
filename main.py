@@ -1,22 +1,15 @@
+import requests
 import token_handler
+import json
 import user_handler
 import printy
 import argparse
 import timetable
 import marks
 import absences
-import messages
 
-
-# Parser argumentů, pro help main.py -h
 parser = argparse.ArgumentParser(description="Skolni API")
 parser.add_argument("-l", "--login", action="store_true", help="runs the login process")
-parser.add_argument(
-    "-r",
-    "--refreshlogin",
-    action="store_true",
-    help="tries to run the login process using stored refresh token",
-)
 parser.add_argument(
     "-t", "--timetable", action="store_true", help="prints the timetable"
 )
@@ -32,25 +25,13 @@ parser.add_argument(
     action="store_true",
     help="prints the absences",
 )
-parser.add_argument(
-    "-z",
-    "--messages",
-    action="store_true",
-    help="prints the messages",
-)
 
 
-# hlavní funkce, která zpracovává argumenty
 def main(args):
     if args.login:
         token_handler.token_login()
         return
 
-    if args.refreshlogin:
-        token_handler.refresh_login()
-        return
-
-    # získání dat uživatele, provede se vždy
     user = user_handler.User()
     user.get_data()
 
@@ -67,11 +48,6 @@ def main(args):
     if args.absences:
         absence = absences.absences_parser(absences.get_absences_download(user))
         printy.print_absences(absence)
-        return
-
-    if args.messages:
-        message = messages.message_parser(messages.get_messages_download(user))
-        printy.print_messages(message)
         return
 
 
