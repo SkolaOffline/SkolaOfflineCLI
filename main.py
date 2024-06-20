@@ -1,4 +1,6 @@
+import logging.config
 import requests
+import logging
 import token_handler
 import json
 import user_handler
@@ -25,6 +27,8 @@ parser.add_argument(
     action="store_true",
     help="prints the absences",
 )
+
+logging.basicConfig(level=logging.DEBUG)
 
 
 def main(args):
