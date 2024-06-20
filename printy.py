@@ -19,7 +19,7 @@ def print_timetable(timetable):
     week_array = [None] * 5
     dny = ["Pondělí", "Úterý", "Středa", "Čtvrtek", "Pátek"]
     for indx, day in enumerate(timetable):
-        day_array = [""] * 10
+        day_array = [""] * 9
         day_array[0] = dny[indx]
         for lesson in day:
             lesson_text = f"{lesson.subject_abbrev}\n{lesson.classroom_abbrev}\n{lesson.teacher_abbr}"
@@ -29,12 +29,14 @@ def print_timetable(timetable):
 
         week_array[indx] = day_array
 
+    week_array.insert(0, ["", "1", "2", "3", "4", "5", "6", "7", "8"])
+
     print(tabulate(week_array, tablefmt="fancy_grid"))
 
 
 # print absencí v tabulce
 def print_absences(absences):
-    day_array = []
+    day_array = [['omluveno', 'neomluveno', 'nezapočítáno', 'nevyhodnoceno', 'nevyhodnoceno_s_omluvou']]
     for date, day in absences.items():
         day_array.append(
             [
