@@ -21,7 +21,9 @@ def get_absences_download(user):
         token_handler.write_token_to_file_from_refresh_token()
         r = requests.get(
             f"https://aplikace.skolaonline.cz/solapi/api/v1/absences/inPeriod",
-            headers={"Authorization": f"Bearer {token_handler.get_token_from_file()}"},
+            headers={
+                "Authorization": f"Bearer {token_handler.get_token_from_refresh_token()}"
+            },
             params={
                 "dateFrom": date_from(),
                 "dateTo": date_to(),
@@ -33,8 +35,35 @@ def get_absences_download(user):
     return r.text
 
 
-# ehm harcoded datum
-# todo fix
+def get_absences_in_subjects_download(user):
+    r = requests.get(
+        f"https://aplikace.skolaonline.cz/solapi/api/v1/absences/inSubject",
+        headers={"Authorization": f"Bearer {token_handler.get_token_from_file()}"},
+        params={
+            "dateFrom": date_from(),
+            "dateTo": date_to(),
+        },
+    )
+    # if unauthorized or bad credentials tries to get a new token from the refresh token
+    if r.status_code == 401 or r.status_code == 400:
+        token_handler.write_token_to_file_from_refresh_token()
+        r = requests.get(
+            f"https://aplikace.skolaonline.cz/solapi/api/v1/absences/inSubject",
+            headers={
+                "Authorization": f"Bearer {token_handler.get_token_from_refresh_token()}"
+            },
+            params={
+                "dateFrom": date_from(),
+                "dateTo": date_to(),
+            },
+        )
+        if r.status_code == 401 or r.status_code == 400:
+            raise Exception("token expired")
+
+    return r.text
+
+
+# vrací datum podle toho, jestli je druhé pololetí nebo první
 def date_from():
     today = datetime.date.today()
     if today.month < 9 and today.month > 2:  # Second half of the year
@@ -45,7 +74,7 @@ def date_from():
         return formated_date(first_semester.strftime("%Y-%m-%d"))
 
 
-# vrací datum příštího pátku ve vhodném formátu pro api
+# vrací dnešní datum
 def date_to():
     today = datetime.date.today()
     return formated_date(today.strftime("%Y-%m-%d"))
@@ -67,6 +96,17 @@ class DayOfAbsences:
 
 
 @dataclass
+class Absences:
+    absences: int
+    hours: int
+    excused: int
+    unexcused: int
+    notcounted: int
+    unevaluated: int
+    unevaluated_with_apology: int
+
+
+@dataclass
 class AbsencesInSubject:
     subject_name: str
     absences: int
@@ -75,16 +115,17 @@ class AbsencesInSubject:
     excused: int
     unexcused: int
     notcounted: int
-    unevaluated: int
-    unevaluated_with_apology: int
+    # unevaluated: int
+    # unevaluated_with_apology: int
     allowed_absences: int
     allowed_percentage: float
 
 
 # parsuje json absencí
-def absences_parser(jsn, subjects_absence):
+def absences_parser(jsn):
     jsn = json.loads(jsn)["absences"]
     absences = {}
+
     for day in jsn:
         absences[day["date"]] = DayOfAbsences(
             day["date"],
@@ -95,23 +136,51 @@ def absences_parser(jsn, subjects_absence):
             day["numberOfUnevaluatedWithApology"],
         )
 
-    for subject in subjects_absence:
-        absences_in_subject = AbsencesInSubject(
-            subject["subject"]["name"],
-            subject["absenceAll"],
-            subject["absenceAllPercentage"],
-            subject["numberOfHours"],
-            subject["numberOfExcused"],
-            subject["numberOfUnexcused"],
-            subject["numberOfNotCounted"],
-            subject["numberOfUnevaluated"],
-            subject["numberOfUnevaluatedWithApology"],
-            subject["allowedAbsence"],
-            subject["allowedAbsencePercentage"],
-        )
-        absences[subject["subject"]["name"]] = absences_in_subject
-
     return absences
+
+
+def absences_in_subjects_parser(jsn):
+    data = json.loads(jsn)
+
+    # Extracting summary information
+    summary = Absences(
+        absences=data["summaryAbsenceAll"],
+        hours=data["summaryNumberOfHours"],
+        excused=data["summaryNumberOfExcused"],
+        unexcused=data["summaryNumberOfUnexcused"],
+        notcounted=data["summaryNumberOfNotCounted"],
+        unevaluated=data["summaryNumberOfUnevaluated"],
+        unevaluated_with_apology=data["summaryNumberOfUnevaluatedWithApology"],
+    )
+
+    # Parsing individual subjects
+    absences_in_subject = {}
+    for subject_info in data["subjects"]:
+        subject = subject_info["subject"]
+        subject_key = subject["name"]
+        absences_in_subject[subject_key] = AbsencesInSubject(
+            subject_name=subject["name"],
+            absences=subject_info["absenceAll"],
+            percentage=subject_info["absenceAllPercentage"],
+            number_of_hours=subject_info["numberOfHours"],
+            excused=subject_info["numberOfExcused"],
+            unexcused=subject_info["numberOfUnexcused"],
+            notcounted=subject_info["numberOfNotCounted"],
+            # unevaluated=subject_info["numberOfUnevaluated"],
+            # unevaluated_with_apology=subject_info["numberOfUnevaluatedWithApology"],
+            allowed_absences=(
+                subject_info["allowedAbsence"]
+                if subject_info["allowedAbsence"] is not None
+                else 0
+            ),  # Handling null values
+            allowed_percentage=(
+                subject_info["allowedAbsencePercentage"]
+                if subject_info["allowedAbsencePercentage"] is not None
+                else 0.0
+            ),  # Handling null values
+        )
+
+    return absences_in_subject, summary
 
 
 if __name__ == "__main__":
