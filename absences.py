@@ -122,7 +122,7 @@ class AbsencesInSubject:
 
 
 # parsuje json absencí
-def absences_parser(jsn):
+def absences_parser(jsn, jsn2):
     jsn = json.loads(jsn)["absences"]
     absences = {}
 
@@ -136,22 +136,7 @@ def absences_parser(jsn):
             day["numberOfUnevaluatedWithApology"],
         )
 
-    return absences
-
-
-def absences_in_subjects_parser(jsn):
-    data = json.loads(jsn)
-
-    # Extracting summary information
-    summary = Absences(
-        absences=data["summaryAbsenceAll"],
-        hours=data["summaryNumberOfHours"],
-        excused=data["summaryNumberOfExcused"],
-        unexcused=data["summaryNumberOfUnexcused"],
-        notcounted=data["summaryNumberOfNotCounted"],
-        unevaluated=data["summaryNumberOfUnevaluated"],
-        unevaluated_with_apology=data["summaryNumberOfUnevaluatedWithApology"],
-    )
+    data = json.loads(jsn2)
 
     # Parsing individual subjects
     absences_in_subject = {}
@@ -180,7 +165,18 @@ def absences_in_subjects_parser(jsn):
             ),  # Handling null values
         )
 
-    return absences_in_subject, summary
+    # Extracting summary information
+    summary = Absences(
+        absences=data["summaryAbsenceAll"],
+        hours=data["summaryNumberOfHours"],
+        excused=data["summaryNumberOfExcused"],
+        unexcused=data["summaryNumberOfUnexcused"],
+        notcounted=data["summaryNumberOfNotCounted"],
+        unevaluated=data["summaryNumberOfUnevaluated"],
+        unevaluated_with_apology=data["summaryNumberOfUnevaluatedWithApology"],
+    )
+
+    return absences, absences_in_subject, summary
 
 
 if __name__ == "__main__":
