@@ -3,6 +3,7 @@ from dataclasses import dataclass
 import json
 import token_handler
 import time
+import datetime
 
 
 # getuje data o absencích a vrací json jako text (string)
@@ -35,11 +36,19 @@ def get_absences_download(user):
 # ehm harcoded datum
 # todo fix
 def date_from():
-    return formated_date("2023-09-01")
+    today = datetime.date.today()
+    if today.month < 9 and today.month > 2:  # Second half of the year
+        second_semester = datetime.date(today.year, 2, 1)
+        return formated_date(second_semester.strftime("%Y-%m-%d"))
+    else:
+        first_semester = datetime.date(today.year, 9, 1)
+        return formated_date(first_semester.strftime("%Y-%m-%d"))
 
 
+# vrací datum příštího pátku ve vhodném formátu pro api
 def date_to():
-    return formated_date("2024-6-30")
+    today = datetime.date.today()
+    return formated_date(today.strftime("%Y-%m-%d"))
 
 
 def formated_date(date):
@@ -57,8 +66,23 @@ class DayOfAbsences:
     unevaluated_with_apology: int
 
 
+@dataclass
+class AbsencesInSubject:
+    subject_name: str
+    absences: int
+    percentage: float
+    number_of_hours: int
+    excused: int
+    unexcused: int
+    notcounted: int
+    unevaluated: int
+    unevaluated_with_apology: int
+    allowed_absences: int
+    allowed_percentage: float
+
+
 # parsuje json absencí
-def absences_parser(jsn):
+def absences_parser(jsn, subjects_absence):
     jsn = json.loads(jsn)["absences"]
     absences = {}
     for day in jsn:
@@ -70,6 +94,22 @@ def absences_parser(jsn):
             day["numberOfUnevaluated"],
             day["numberOfUnevaluatedWithApology"],
         )
+
+    for subject in subjects_absence:
+        absences_in_subject = AbsencesInSubject(
+            subject["subject"]["name"],
+            subject["absenceAll"],
+            subject["absenceAllPercentage"],
+            subject["numberOfHours"],
+            subject["numberOfExcused"],
+            subject["numberOfUnexcused"],
+            subject["numberOfNotCounted"],
+            subject["numberOfUnevaluated"],
+            subject["numberOfUnevaluatedWithApology"],
+            subject["allowedAbsence"],
+            subject["allowedAbsencePercentage"],
+        )
+        absences[subject["subject"]["name"]] = absences_in_subject
 
     return absences
 
