@@ -38,6 +38,7 @@ def print_timetable(timetable):
 
 # print absencí v tabulce
 def print_absences(absences):
+
     day_array = [
         [
             "datum",
@@ -62,6 +63,72 @@ def print_absences(absences):
         )
 
     print(tabulate(day_array, tablefmt="fancy_grid"))
+
+
+def print_absences_in_subject(absences_in_subject, summary):
+    subject_array = [
+        [
+            "předmět",
+            "absence",
+            "procenta",
+            "počet hodin",
+            "omluveno",
+            "neomluveno",
+            "nezapočítáno",
+            # "nevyhodnoceno",
+            # "nevyhodnoceno_s_omluvou",
+            "povolené absence",
+            "povolené procenta",
+        ]
+    ]
+    for (
+        subject_name,
+        absences_instance,
+    ) in absences_in_subject.items():  # Iterate over items
+        subject_array.append(
+            [
+                subject_name,  # Use the key directly
+                absences_instance.absences,
+                absences_instance.percentage,
+                absences_instance.number_of_hours,
+                absences_instance.excused,
+                absences_instance.unexcused,
+                absences_instance.notcounted,
+                # absences_instance.unevaluated,
+                # absences_instance.unevaluated_with_apology,
+                absences_instance.allowed_absences,
+                absences_instance.allowed_percentage,
+            ]
+        )
+
+    summary_array = [
+        [
+            "absence",
+            "procenta",
+            "počet hodin",
+            "omluveno",
+            "neomluveno",
+            "nezapočítáno",
+            # "nevyhodnoceno",
+            # "nevyhodnoceno_s_omluvou",
+            "povolené absence",
+            "povolené procenta",
+        ],
+    ]
+    for summary in summary.items:
+        summary_array.append(
+            [
+                summary.absences,
+                summary.number_of_hours,
+                summary.excused,
+                summary.unexcused,
+                summary.notcounted,
+                summary.unevaluated,
+                summary.unevaluated_with_apology,
+            ]
+        )
+
+    print(tabulate(subject_array, tablefmt="fancy_grid"))
 
 
 # print známek v tabulce s fancy názvy předmětů
