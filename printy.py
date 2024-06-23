@@ -153,14 +153,14 @@ def print_marks(marks_in_subject):
 def print_messages(messages):
     prnt = [["", "send_date", "sender", "title"]]
     for indx, message in enumerate(messages):
-        prnt.append([indx, message.send_date, message.sender, message.title])
+        prnt.append([indx + 1, message.send_date, message.sender, message.title])
 
     print(tabulate(prnt, tablefmt="fancy_grid"))
 
 
 # todo bugged when message index 0, returns blank
 def print_one_message(user, indx):
-    message = messages.message_parser(messages.get_messages_download(user))[indx]
+    message = messages.message_parser(messages.get_messages_download(user))[indx - 1]
     print(f"From: {message.sender}")
     print(f"Date: {message.send_date}")
     print(f"Title: {message.title}")
