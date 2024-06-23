@@ -32,16 +32,16 @@ parser.add_argument(
     "-z",
     "--messages",
     action="store_true",
-    help="prints the absences",
+    help="prints the messages",
 )
 parser.add_argument(
     "-k",
     "--message",
     help="show a specific message by its index in --messages",
-    action='store',
+    action="store",
     type=int,
-    default=None
-) # parser.add_argument(
+    default=None,
+)  # parser.add_argument(
 #     '-o',
 #     '--logout',
 #     action='store_true',
@@ -84,12 +84,9 @@ def main(args):
             messages.message_parser(messages.get_messages_download(user))
         )
         return
-    
+
     if args.message:
-        printy.print_one_message(
-            user,
-            args.message
-        )
+        printy.print_one_message(user, args.message)
         return
 
 

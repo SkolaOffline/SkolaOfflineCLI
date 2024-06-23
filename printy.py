@@ -38,11 +38,21 @@ def print_timetable(timetable):
 
 # print absencí v tabulce
 def print_absences(absences):
-    day_array = [['omluveno', 'neomluveno', 'nezapočítáno', 'nevyhodnoceno', 'nevyhodnoceno_s_omluvou']]
+    day_array = [
+        [
+            "datum",
+            "omluveno",
+            "neomluveno",
+            "nezapočítáno",
+            "nevyhodnoceno",
+            "nevyhodnoceno_s_omluvou",
+        ]
+    ]
     for date, day in absences.items():
+        date = datetime.datetime.strptime(day.date.split("T")[0], "%Y-%m-%d")
         day_array.append(
             [
-                date,
+                date.strftime("%m-%d-%Y"),
                 day.excused,
                 day.unexcused,
                 day.notcounted,
@@ -79,7 +89,7 @@ def print_marks(marks_in_subject):
 
 
 def print_messages(messages):
-    prnt = [['', 'send_date', 'sender', 'title']]
+    prnt = [["", "send_date", "sender", "title"]]
     for indx, message in enumerate(messages):
         prnt.append([indx, message.send_date, message.sender, message.title])
 
@@ -91,11 +101,9 @@ def print_one_message(user, indx):
     print(f"From: {message.sender}")
     print(f"Date: {message.send_date}")
     print(f"Title: {message.title}")
-    soup = BeautifulSoup(message.text, 'html.parser')
+    soup = BeautifulSoup(message.text, "html.parser")
     text = soup.get_text()
     print(f"Text: {text}")
-
-
 
 
 # def main():

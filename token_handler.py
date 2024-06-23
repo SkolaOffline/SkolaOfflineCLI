@@ -10,11 +10,12 @@ def get_token(uzivatel, heslo):
     heslo = heslo.strip()
     # zkusikm refresh token
     refresh_token = get_refresh_token_from_file()
-    if refresh_token != '':
+    if refresh_token != "":
         response = get_token_from_refresh_token()
         # print(response)
         # print('here')
-    elif refresh_token == '':
+
+    elif refresh_token == "":
         # print(uzivatel, heslo)
         response = requests.post(
             "https://aplikace.skolaonline.cz/solapi/api/connect/token",
@@ -28,10 +29,23 @@ def get_token(uzivatel, heslo):
             },
         )
 
+    if response.status_code == 400:
+        print("Refresh token expired, trying to login with credentials")
+        response = requests.post(
+            "https://aplikace.skolaonline.cz/solapi/api/connect/token",
+            headers={"Content-Type": "application/x-www-form-urlencoded"},
+            data={
+                "grant_type": "password",
+                "username": uzivatel,
+                "password": heslo,
+                "client_id": "test_client",
+                "scope": "openid offline_access profile sol_api",
+            },
+        )
 
     if response.status_code != 200:
         raise Exception(f"{response.status_code} ({response.text})")
-    
+
     access_token = response.json()["access_token"]
     refresh_token = response.json()["refresh_token"]
 
@@ -42,7 +56,7 @@ def get_token(uzivatel, heslo):
 # tries to get a new token from the refresh token
 def get_token_from_refresh_token():
     refresh_token = get_refresh_token_from_file()
-    if refresh_token == '':
+    if refresh_token == "":
         return None
     logging.info("Trying to get new token from refresh token")
     logging.info(refresh_token)
@@ -104,6 +118,8 @@ def get_refresh_token_from_file():
     except:
         return None
     # return open("token", "r").read().split("\n")[1]
+
+
 # def token_logout():
 #     response = requests.post(
 #         "https://aplikace.skolaonline.cz/solapi/api/v1/user/logout",
@@ -119,4 +135,3 @@ def get_refresh_token_from_file():
 
 #     if response.status_code != 200:
 #         raise Exception(f"{response.status_code} ({response.text})")
-    
