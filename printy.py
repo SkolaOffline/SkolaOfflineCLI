@@ -87,12 +87,15 @@ def print_absences(absences, absences_in_subject, summary):
             [
                 subject_name,  # Use the key directly
                 absences_instance.absences,
+                absences_instance.percentage,
                 absences_instance.number_of_hours,
                 absences_instance.excused,
                 absences_instance.unexcused,
                 absences_instance.notcounted,
                 # absences_instance.unevaluated,
                 # absences_instance.unevaluated_with_apology,
+                absences_instance.allowed_absences,
+                absences_instance.allowed_percentage,
             ]
         )
     print(tabulate(subject_array, tablefmt="fancy_grid"))
@@ -155,6 +158,7 @@ def print_messages(messages):
     print(tabulate(prnt, tablefmt="fancy_grid"))
 
 
+# todo bugged when message index 0, returns blank
 def print_one_message(user, indx):
     message = messages.message_parser(messages.get_messages_download(user))[indx]
     print(f"From: {message.sender}")
