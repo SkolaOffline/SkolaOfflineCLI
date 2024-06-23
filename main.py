@@ -75,12 +75,11 @@ def main(args):
         return
 
     if args.absences:
-        absence = absences.absences_parser(absences.get_absences_download(user))
-        absences_in_subject = absences.absences_in_subjects_parser(
-            absences.get_absences_in_subjects_download(user)
+        absence, absences_in_subject, summary = absences.absences_parser(
+            absences.get_absences_download(user),
+            absences.get_absences_in_subjects_download(user),
         )
-        printy.print_absences(absence)
-        printy.print_absences_in_subject(absences_in_subject)
+        printy.print_absences(absence, absences_in_subject, summary)
         return
 
     if args.messages:
