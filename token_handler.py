@@ -71,7 +71,10 @@ def get_token_from_refresh_token():
         },
     )
 
-    return response
+    access_token = response.json()["access_token"]
+    refresh_token = response.json()["refresh_token"]
+
+    return access_token, refresh_token
 
     # if response.status_code != 200:
     #     raise Exception(f"{response.status_code} ({response.text})")

@@ -131,7 +131,7 @@ def print_absences(absences, absences_in_subject, summary):
 
 def print_marks(marks_in_subject):
     for subject in marks_in_subject:
-        print(pyfiglet.figlet_format(subject.subject_name, width=180))
+        print(pyfiglet.figlet_format(subject.subject_name, width=100))
         print("Průměr: ", subject.marks_avg, "\n")
         mark_array = []
         for indx, mark in enumerate(subject.marks):
@@ -167,6 +167,55 @@ def print_one_message(user, indx):
     soup = BeautifulSoup(message.text, "html.parser")
     text = soup.get_text()
     print(f"Text: {text}")
+
+
+def print_report(report):
+    grade_array = [
+        [
+            "jméno",
+            "ročník",
+            "semestr",
+            "uzavřeno",
+            "prospěch",
+            "průměr",
+            "omluveno",
+            "neomluveno",
+            "nezapočítáno",
+        ]
+    ]
+    for grade in report:
+        grade_array.append(
+            [
+                grade.grade_name,
+                grade.year,
+                grade.semester,
+                grade.closed,
+                grade.achievment_text,
+                grade.average,
+                grade.absent_hours,
+                grade.excused_hours,
+                grade.unexcused_hours,
+            ]
+        )
+    print(tabulate(grade_array, tablefmt="fancy_grid"))
+
+    for grade in report:
+        print(pyfiglet.figlet_format(grade.grade_name, width=180))
+        print("Ročník: ", grade.year)
+        print("Pololetí: ", grade.semester)
+        print("Uzavřeno: ", grade.closed)
+        print("Prospěch: ", grade.achievment_text)
+        print("Průměr: ", grade.average)
+        print("Absence: ", grade.absent_hours)
+        print("Omluvené: ", grade.excused_hours)
+        print("Neomluvené: ", grade.unexcused_hours)
+        print("Nezapočítané: ", grade.unexcused_hours)
+        print("Známky: ")
+        mark_array = []
+        for mark in grade.marks:
+            arr = [mark.subject_name, mark.mark]
+            mark_array.append(arr)
+        print(tabulate(mark_array, tablefmt="fancy_grid"))
 
 
 # def main():

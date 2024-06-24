@@ -1,8 +1,6 @@
 import logging.config
-import requests
 import logging
 import token_handler
-import json
 import user_handler
 import printy
 import argparse
@@ -10,6 +8,7 @@ import timetable
 import marks
 import absences
 import messages
+import report
 
 parser = argparse.ArgumentParser(description="Skolni API")
 parser.add_argument("-l", "--login", action="store_true", help="runs the login process")
@@ -41,7 +40,14 @@ parser.add_argument(
     action="store",
     type=int,
     default=None,
-)  # parser.add_argument(
+)
+parser.add_argument(
+    "-r",
+    "--report",
+    action="store_true",
+    help="prints the report",
+)
+# parser.add_argument(
 #     '-o',
 #     '--logout',
 #     action='store_true',
@@ -90,6 +96,11 @@ def main(args):
 
     if args.message:
         printy.print_one_message(user, args.message)
+        return
+
+    if args.report:
+        reports = report.report_parser(report.get_report_download(user))
+        printy.print_report(reports)
         return
 
 
