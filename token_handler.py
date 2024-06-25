@@ -1,7 +1,7 @@
 import requests
 import logging
-import token_handler
 import requests
+import os
 
 
 # získání tokenu
@@ -9,14 +9,13 @@ def get_token(uzivatel, heslo):
     uzivatel = uzivatel.strip()
     heslo = heslo.strip()
     # zkusikm refresh token
-    refresh_token = get_refresh_token_from_file()
-    if refresh_token != "":
-        response = get_token_from_refresh_token()
-        # print(response)
-        # print('here')
-
-    elif refresh_token == "":
-        # print(uzivatel, heslo)
+    check_credentials_file = os.path.isfile("./credentials")
+    if check_credentials_file == False:
+        print("No credentials file found, please create one")
+        return
+    check_token_file = os.path.isfile("./token")
+    if check_token_file == False:
+        print("No token file found, trying to login with credentials")
         response = requests.post(
             "https://aplikace.skolaonline.cz/solapi/api/connect/token",
             headers={"Content-Type": "application/x-www-form-urlencoded"},
@@ -28,6 +27,18 @@ def get_token(uzivatel, heslo):
                 "scope": "openid offline_access profile sol_api",
             },
         )
+        if response.status_code != 200:
+            raise Exception(f"{response.status_code} ({response.text})")
+        access_token = response.json()["access_token"]
+        refresh_token = response.json()["refresh_token"]
+        open("token", "w").write(access_token + "\n" + refresh_token)
+        return access_token, refresh_token
+
+    refresh_token = get_refresh_token_from_file()
+    if refresh_token != "":
+        response = get_token_from_refresh_token()
+        # print(response)
+        # print('here')
 
     if response.status_code == 400:
         print("Refresh token expired, trying to login with credentials")
@@ -99,6 +110,10 @@ def write_token_to_file_from_refresh_token():
 
 # tries to login using credentials and writes the tokens to a file
 def token_login():
+    check_credentials_file = os.path.isfile("./credentials")
+    if check_credentials_file == False:
+        print("No credentials file found, please create one")
+        return
     uzivatel, heslo = open("credentials", "r").readlines()
     write_token_to_file(uzivatel, heslo)
 
