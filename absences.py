@@ -18,11 +18,7 @@ def get_absences_download(user):
     )
     # if unauthorized or bad credentials tries to get a new token from the refresh token
     if r.status_code == 401 or r.status_code == 400:
-<<<<<<< HEAD
-        token_handler.write_token_to_file_from_refresh_token()
-=======
         token_handler.token_login()
->>>>>>> b1b2fb02c3478143bbf0960edede4b316d114e31
         r = requests.get(
             f"https://aplikace.skolaonline.cz/solapi/api/v1/absences/inPeriod",
             headers={
@@ -34,13 +30,9 @@ def get_absences_download(user):
             },
         )
         if r.status_code == 401 or r.status_code == 400:
-<<<<<<< HEAD
-            raise Exception("token expired")
-=======
             raise Exception(
                 "Something about your login went wrong. Check your credentials."
             )
->>>>>>> b1b2fb02c3478143bbf0960edede4b316d114e31
 
     return r.text
 
@@ -56,11 +48,7 @@ def get_absences_in_subjects_download(user):
     )
     # if unauthorized or bad credentials tries to get a new token from the refresh token
     if r.status_code == 401 or r.status_code == 400:
-<<<<<<< HEAD
-        token_handler.write_token_to_file_from_refresh_token()
-=======
         token_handler.token_login()
->>>>>>> b1b2fb02c3478143bbf0960edede4b316d114e31
         r = requests.get(
             f"https://aplikace.skolaonline.cz/solapi/api/v1/absences/inSubject",
             headers={
@@ -72,13 +60,9 @@ def get_absences_in_subjects_download(user):
             },
         )
         if r.status_code == 401 or r.status_code == 400:
-<<<<<<< HEAD
-            raise Exception("token expired")
-=======
             raise Exception(
                 "Something about your login went wrong. Check your credentials."
             )
->>>>>>> b1b2fb02c3478143bbf0960edede4b316d114e31
 
     return r.text
 
