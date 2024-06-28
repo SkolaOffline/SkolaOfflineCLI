@@ -44,7 +44,7 @@ def get_timetable(user):
     )
     # if unauthorized or bad credentials tries to get a new token from the refresh token
     if r.status_code == 401 or r.status_code == 400:
-        token_handler.write_token_to_file_from_refresh_token()
+        token_handler.token_login()
         r = requests.get(
             "https://aplikace.skolaonline.cz/solapi/api/v1/timeTable",
             params={
@@ -55,7 +55,9 @@ def get_timetable(user):
             },
         )
         if r.status_code == 401 or r.status_code == 400:
-            raise Exception("token expired")
+            raise Exception(
+                "Something about your login went wrong. Check your credentials."
+            )
 
     # print(r.status_code)
     timetable = timetable_week_parser(r.text)

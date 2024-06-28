@@ -27,7 +27,9 @@ class User:
                 },
             )
             if response.status_code == 401 or response.status_code == 400:
-                raise Exception("token expired")
+                raise Exception(
+                    "Something about your login went wrong. Check your credentials."
+                )
         # todo dalo by se udělat, když nevyjde request, aby se podíval do cache,
         # kam by se průběžně každý request ukládal
 

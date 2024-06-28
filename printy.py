@@ -153,7 +153,14 @@ def print_marks(marks_in_subject):
 def print_messages(messages):
     prnt = [["", "send_date", "sender", "title"]]
     for indx, message in enumerate(messages):
-        prnt.append([indx + 1, message.send_date, message.sender, message.title])
+        prnt.append(
+            [
+                indx + 1,
+                message.send_date,
+                message.sender,
+                message.title,
+            ]
+        )
 
     print(tabulate(prnt, tablefmt="fancy_grid"))
 

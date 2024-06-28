@@ -1,6 +1,5 @@
 import logging.config
 import logging
-import token_handler
 import user_handler
 import printy
 import argparse
@@ -73,12 +72,12 @@ def main(args):
     if args.timetable:
         timetabl = timetable.get_timetable(user)
         printy.print_timetable(timetabl)
-        return
+        # return
 
     if args.marks:
         marks_in_subject = marks.all_marks_parser(marks.get_marks_download(user))
         printy.print_marks(marks_in_subject)
-        return
+        # return
 
     if args.absences:
         absence, absences_in_subject, summary = absences.absences_parser(
@@ -86,22 +85,22 @@ def main(args):
             absences.get_absences_in_subjects_download(user),
         )
         printy.print_absences(absence, absences_in_subject, summary)
-        return
+        # return
 
     if args.messages:
         printy.print_messages(
             messages.message_parser(messages.get_messages_download(user))
         )
-        return
+        # return
 
     if args.message:
         printy.print_one_message(user, args.message)
-        return
+        # return
 
     if args.report:
         reports = report.report_parser(report.get_report_download(user))
         printy.print_report(reports)
-        return
+        # return
 
 
 if __name__ == "__main__":

@@ -6,27 +6,22 @@ To install the cli, you need to have python installed on your computer. You can 
 
 ```pip install -r "_Path_to_requirements.txt"```
 
-This will install the required dependecies for the cli.
+This will install the required dependecies for the cli. You can of course install the packages to a venv if you want to keep your system clean. After you have installed the dependencies, you can start using the cli.
 
 ## Usage
-Before you can use the cli, you need to login. You can login by creating a file called ```credentials``` without any file extension in the same folder as the cli. The file should contain the following
+Before you can use the cli, you need to save your credentials. In order to get your credentials you need to have an account at [Skola Online](https://www.skolaonline.cz/). The access to this system is provided by your school. You can login by creating a file called ```credentials``` without any file extension in the same folder as the cli. The file should contain the following
     
 ```
 Your_Username
 Your_Password
 ```
 
-Before you start using the cli you need to login. You can login by running the following command in the terminal
-
-```.\main.py --login``` or ```.\main.py -l```
-
-This will get the access and refresh tokens and save them in a file called token. If you logged in previously, you can skip this step and the cli should try to login automatically using the refresh token. If this doesn't work, you can login manually using the command above.
+This will get the access and refresh tokens automatically whenever the request fails and save them in a file called token. If you logged in previously, you can skip this step and the cli should try to login automatically using the refresh token. The credentials file is highly encouraged because if you login on another device, the refresh token is deemend invalid by the server and you need to login again.
 
 After you have logged in, you can start using the cli by appending the arguments to the command ```.\main.py```. The available commands are listed below.
 
 | Command   | Arguments            | Description                                                                                                                                                                   |
 |-----------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Login     | --login or -l     | Tries to log you in using credentials or previously saved refresh token.                                                                                                      |
 | Help      | --help or -h      | Shows you a brief help menu similar to this with all available commands.                                                                                                      |
 | Timetable | --timetable or -t | Shows a timetable for the present week or following week if it is weekend.  The timetable is shown in a table.                                                                |
 | Marks     | --marks or -m     | Shows marks for each subject in a table with averages.  Shows marks for the current semester.                                                                                 |
