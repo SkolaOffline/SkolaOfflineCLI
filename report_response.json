@@ -1,0 +1,3178 @@
+{
+    "certificateTerms": [
+        {
+            "finalMarks": [
+                {
+                    "markDate": "0001-01-01T00:00:00",
+                    "editDate": null,
+                    "markText": null,
+                    "shortcutToDisplay": null,
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "CHOVANI",
+                    "order": 1
+                }
+            ],
+            "subjects": [
+                {
+                    "id": "CHOVANI",
+                    "abbrev": "CH",
+                    "name": "Chování",
+                    "kind": "N"
+                }
+            ],
+            "gradeName": "1. ročník",
+            "grade": "1",
+            "schoolYearName": "2017/2018",
+            "schoolYearOrder": 1,
+            "semesterName": "1. pololetí",
+            "semesterAbbrev": "1. pololet",
+            "semesterOrder": 1,
+            "closed": null,
+            "achievementText": "nehodnocen(a)",
+            "achievement": "notEvaluated",
+            "marksAverage": null,
+            "absentHours": null,
+            "excusedHours": null,
+            "notExcusedHours": null,
+            "finalVerbalEvaluation": null
+        },
+        {
+            "finalMarks": [
+                {
+                    "markDate": "0001-01-01T00:00:00",
+                    "editDate": null,
+                    "markText": null,
+                    "shortcutToDisplay": null,
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "CHOVANI",
+                    "order": 1
+                }
+            ],
+            "subjects": [
+                {
+                    "id": "CHOVANI",
+                    "abbrev": "CH",
+                    "name": "Chování",
+                    "kind": "N"
+                }
+            ],
+            "gradeName": "1. ročník",
+            "grade": "1",
+            "schoolYearName": "2017/2018",
+            "schoolYearOrder": 1,
+            "semesterName": "2. pololetí",
+            "semesterAbbrev": "2. pololet",
+            "semesterOrder": 2,
+            "closed": null,
+            "achievementText": "nehodnocen(a)",
+            "achievement": "notEvaluated",
+            "marksAverage": null,
+            "absentHours": null,
+            "excusedHours": null,
+            "notExcusedHours": null,
+            "finalVerbalEvaluation": null
+        },
+        {
+            "finalMarks": [
+                {
+                    "markDate": "0001-01-01T00:00:00",
+                    "editDate": null,
+                    "markText": null,
+                    "shortcutToDisplay": null,
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "CHOVANI",
+                    "order": 1
+                }
+            ],
+            "subjects": [
+                {
+                    "id": "CHOVANI",
+                    "abbrev": "CH",
+                    "name": "Chování",
+                    "kind": "N"
+                }
+            ],
+            "gradeName": "2. ročník",
+            "grade": "2",
+            "schoolYearName": "2018/2019",
+            "schoolYearOrder": 2,
+            "semesterName": "1. pololetí",
+            "semesterAbbrev": "1. pololet",
+            "semesterOrder": 1,
+            "closed": null,
+            "achievementText": "nehodnocen(a)",
+            "achievement": "notEvaluated",
+            "marksAverage": null,
+            "absentHours": null,
+            "excusedHours": null,
+            "notExcusedHours": null,
+            "finalVerbalEvaluation": null
+        },
+        {
+            "finalMarks": [
+                {
+                    "markDate": "0001-01-01T00:00:00",
+                    "editDate": null,
+                    "markText": null,
+                    "shortcutToDisplay": null,
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "CHOVANI",
+                    "order": 1
+                }
+            ],
+            "subjects": [
+                {
+                    "id": "CHOVANI",
+                    "abbrev": "CH",
+                    "name": "Chování",
+                    "kind": "N"
+                }
+            ],
+            "gradeName": "2. ročník",
+            "grade": "2",
+            "schoolYearName": "2018/2019",
+            "schoolYearOrder": 2,
+            "semesterName": "2. pololetí",
+            "semesterAbbrev": "2. pololet",
+            "semesterOrder": 2,
+            "closed": null,
+            "achievementText": "nehodnocen(a)",
+            "achievement": "notEvaluated",
+            "marksAverage": null,
+            "absentHours": null,
+            "excusedHours": null,
+            "notExcusedHours": null,
+            "finalVerbalEvaluation": null
+        },
+        {
+            "finalMarks": [
+                {
+                    "markDate": "2020-01-21T09:32:12.257",
+                    "editDate": "2020-01-21T09:32:20.57",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "CHOVANI",
+                    "order": 1
+                },
+                {
+                    "markDate": "2020-01-21T09:32:12.257",
+                    "editDate": "2020-01-21T09:32:20.57",
+                    "markText": "2",
+                    "shortcutToDisplay": "2",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137423",
+                    "order": 2
+                },
+                {
+                    "markDate": "2020-01-21T14:39:06.863",
+                    "editDate": "2020-01-21T14:39:12.787",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137467",
+                    "order": 3
+                },
+                {
+                    "markDate": "2020-01-20T10:42:31.607",
+                    "editDate": "2020-01-21T14:52:05.613",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138782",
+                    "order": 4
+                },
+                {
+                    "markDate": "2020-01-16T10:26:23.89",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137430",
+                    "order": 5
+                },
+                {
+                    "markDate": "2020-01-22T07:52:16.75",
+                    "editDate": "2020-01-22T13:51:57.79",
+                    "markText": "2",
+                    "shortcutToDisplay": "2",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137424",
+                    "order": 6
+                },
+                {
+                    "markDate": "2020-01-22T08:30:52.47",
+                    "editDate": "2020-01-22T13:44:26.947",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137429",
+                    "order": 7
+                },
+                {
+                    "markDate": "2020-01-22T09:59:56.89",
+                    "editDate": "2020-01-22T10:53:06.593",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137428",
+                    "order": 8
+                },
+                {
+                    "markDate": "2020-01-22T01:07:21.377",
+                    "editDate": "2020-01-22T01:08:16.953",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137425",
+                    "order": 9
+                },
+                {
+                    "markDate": "2020-01-20T13:57:56.037",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137426",
+                    "order": 10
+                },
+                {
+                    "markDate": "2020-01-17T12:21:50.98",
+                    "editDate": "2020-01-17T14:07:16.137",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137422",
+                    "order": 11
+                },
+                {
+                    "markDate": "2020-01-16T11:14:34.897",
+                    "editDate": "2020-01-20T08:06:52.263",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137427",
+                    "order": 12
+                },
+                {
+                    "markDate": "2020-01-14T10:23:40.21",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137432",
+                    "order": 13
+                },
+                {
+                    "markDate": "2020-01-22T08:24:48.55",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137431",
+                    "order": 14
+                },
+                {
+                    "markDate": "2020-01-21T20:26:24.597",
+                    "editDate": "2020-01-21T20:26:31.643",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138784",
+                    "order": 15
+                }
+            ],
+            "subjects": [
+                {
+                    "id": "CHOVANI",
+                    "abbrev": "CH",
+                    "name": "Chování",
+                    "kind": "N"
+                },
+                {
+                    "id": "E137423",
+                    "abbrev": "Č",
+                    "name": "Český jazyk a literatura",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137467",
+                    "abbrev": "A",
+                    "name": "Anglický jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138782",
+                    "abbrev": "Š611",
+                    "name": "Śpanělský jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137430",
+                    "abbrev": "ZSV",
+                    "name": "Základy společenských věd",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137424",
+                    "abbrev": "D",
+                    "name": "Dějepis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137429",
+                    "abbrev": "Z",
+                    "name": "Zeměpis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137428",
+                    "abbrev": "M",
+                    "name": "Matematika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137425",
+                    "abbrev": "F",
+                    "name": "Fyzika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137426",
+                    "abbrev": "Ch",
+                    "name": "Chemie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137422",
+                    "abbrev": "Bi",
+                    "name": "Biologie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137427",
+                    "abbrev": "IVT",
+                    "name": "Informatika a výpočetní technika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137432",
+                    "abbrev": "VV",
+                    "name": "Výtvarná výchova",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137431",
+                    "abbrev": "HV",
+                    "name": "Hudební výchova",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138784",
+                    "abbrev": "TV-h",
+                    "name": "Tělesná výchova",
+                    "kind": "P"
+                }
+            ],
+            "gradeName": "1. ročník",
+            "grade": "1",
+            "schoolYearName": "2019/2020",
+            "schoolYearOrder": 3,
+            "semesterName": "1. pololetí",
+            "semesterAbbrev": "1. pololet",
+            "semesterOrder": 1,
+            "closed": true,
+            "achievementText": "prospěl(a) s vyznamenáním",
+            "achievement": "passedWithHonors",
+            "marksAverage": 1.14,
+            "absentHours": 0,
+            "excusedHours": 0,
+            "notExcusedHours": 0,
+            "finalVerbalEvaluation": null
+        },
+        {
+            "finalMarks": [
+                {
+                    "markDate": "2020-06-08T09:55:16.353",
+                    "editDate": "2020-06-09T09:00:05.847",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "CHOVANI",
+                    "order": 1
+                },
+                {
+                    "markDate": "2020-06-08T09:55:16.353",
+                    "editDate": "2020-06-09T09:00:05.847",
+                    "markText": "2",
+                    "shortcutToDisplay": "2",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137423",
+                    "order": 2
+                },
+                {
+                    "markDate": "2020-06-08T12:53:32.093",
+                    "editDate": "2020-06-08T12:58:49.313",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137467",
+                    "order": 3
+                },
+                {
+                    "markDate": "2020-06-09T13:28:06.69",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138782",
+                    "order": 4
+                },
+                {
+                    "markDate": "2020-05-20T12:31:48.023",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137430",
+                    "order": 5
+                },
+                {
+                    "markDate": "2020-06-08T09:59:43.963",
+                    "editDate": "2020-06-09T09:12:20.51",
+                    "markText": "2",
+                    "shortcutToDisplay": "2",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137424",
+                    "order": 6
+                },
+                {
+                    "markDate": "2020-06-08T11:36:36.867",
+                    "editDate": "2020-06-08T11:38:38.26",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137429",
+                    "order": 7
+                },
+                {
+                    "markDate": "2020-06-08T19:28:33.023",
+                    "editDate": "2020-06-09T12:47:43.147",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137428",
+                    "order": 8
+                },
+                {
+                    "markDate": "2020-06-08T12:52:37.057",
+                    "editDate": "2020-06-10T14:52:17.287",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137425",
+                    "order": 9
+                },
+                {
+                    "markDate": "2020-06-08T11:57:22.793",
+                    "editDate": "2020-06-08T11:57:40.053",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137426",
+                    "order": 10
+                },
+                {
+                    "markDate": "2020-06-08T14:29:21.487",
+                    "editDate": "2020-06-09T10:53:34.9",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137422",
+                    "order": 11
+                },
+                {
+                    "markDate": "2020-05-31T10:12:41.223",
+                    "editDate": "2020-06-05T08:12:03.35",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137427",
+                    "order": 12
+                },
+                {
+                    "markDate": "2020-06-09T17:57:04.973",
+                    "editDate": "2020-06-09T17:57:16.373",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137432",
+                    "order": 13
+                },
+                {
+                    "markDate": "2020-06-08T11:00:01.733",
+                    "editDate": "2020-06-08T11:00:07.427",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137431",
+                    "order": 14
+                },
+                {
+                    "markDate": "2020-06-05T10:57:28.107",
+                    "editDate": "2020-06-05T10:57:56.347",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138784",
+                    "order": 15
+                }
+            ],
+            "subjects": [
+                {
+                    "id": "CHOVANI",
+                    "abbrev": "CH",
+                    "name": "Chování",
+                    "kind": "N"
+                },
+                {
+                    "id": "E137423",
+                    "abbrev": "Č",
+                    "name": "Český jazyk a literatura",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137467",
+                    "abbrev": "A",
+                    "name": "Anglický jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138782",
+                    "abbrev": "Š611",
+                    "name": "Śpanělský jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137430",
+                    "abbrev": "ZSV",
+                    "name": "Základy společenských věd",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137424",
+                    "abbrev": "D",
+                    "name": "Dějepis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137429",
+                    "abbrev": "Z",
+                    "name": "Zeměpis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137428",
+                    "abbrev": "M",
+                    "name": "Matematika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137425",
+                    "abbrev": "F",
+                    "name": "Fyzika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137426",
+                    "abbrev": "Ch",
+                    "name": "Chemie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137422",
+                    "abbrev": "Bi",
+                    "name": "Biologie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137427",
+                    "abbrev": "IVT",
+                    "name": "Informatika a výpočetní technika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137432",
+                    "abbrev": "VV",
+                    "name": "Výtvarná výchova",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137431",
+                    "abbrev": "HV",
+                    "name": "Hudební výchova",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138784",
+                    "abbrev": "TV-h",
+                    "name": "Tělesná výchova",
+                    "kind": "P"
+                }
+            ],
+            "gradeName": "1. ročník",
+            "grade": "1",
+            "schoolYearName": "2019/2020",
+            "schoolYearOrder": 3,
+            "semesterName": "2. pololetí",
+            "semesterAbbrev": "2. pololet",
+            "semesterOrder": 2,
+            "closed": true,
+            "achievementText": "prospěl(a) s vyznamenáním",
+            "achievement": "passedWithHonors",
+            "marksAverage": 1.14,
+            "absentHours": 36,
+            "excusedHours": 36,
+            "notExcusedHours": 0,
+            "finalVerbalEvaluation": null
+        },
+        {
+            "finalMarks": [
+                {
+                    "markDate": "2021-01-20T07:57:06.347",
+                    "editDate": "2021-01-20T07:57:14.58",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "CHOVANI",
+                    "order": 1
+                },
+                {
+                    "markDate": "2021-01-20T07:57:06.347",
+                    "editDate": "2021-01-20T07:57:14.58",
+                    "markText": "2",
+                    "shortcutToDisplay": "2",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137423",
+                    "order": 2
+                },
+                {
+                    "markDate": "2021-01-21T09:12:51.9",
+                    "editDate": "2021-01-21T09:13:05.133",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137467",
+                    "order": 3
+                },
+                {
+                    "markDate": "2021-01-18T13:37:13.003",
+                    "editDate": "2021-01-19T14:03:18.127",
+                    "markText": "2",
+                    "shortcutToDisplay": "2",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E141691",
+                    "order": 4
+                },
+                {
+                    "markDate": "2021-01-05T11:36:22.653",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137430",
+                    "order": 5
+                },
+                {
+                    "markDate": "2021-01-20T08:02:32.37",
+                    "editDate": "2021-01-20T08:02:35.547",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137424",
+                    "order": 6
+                },
+                {
+                    "markDate": "2021-01-14T23:19:00.28",
+                    "editDate": "2021-01-20T09:55:51.84",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137429",
+                    "order": 7
+                },
+                {
+                    "markDate": "2021-01-18T14:47:41.343",
+                    "editDate": "2021-01-18T14:50:01.527",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137428",
+                    "order": 8
+                },
+                {
+                    "markDate": "2021-01-18T23:16:44.117",
+                    "editDate": "2021-01-20T11:41:05.443",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137425",
+                    "order": 9
+                },
+                {
+                    "markDate": "2021-01-15T10:23:10.767",
+                    "editDate": "2021-01-21T08:58:26.517",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137426",
+                    "order": 10
+                },
+                {
+                    "markDate": "2021-01-18T15:12:03.997",
+                    "editDate": "2021-01-20T10:29:37.663",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137422",
+                    "order": 11
+                },
+                {
+                    "markDate": "2021-01-18T08:41:07.207",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137432",
+                    "order": 12
+                },
+                {
+                    "markDate": "2021-01-18T10:57:11.433",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137431",
+                    "order": 13
+                },
+                {
+                    "markDate": "2021-01-19T22:11:12.807",
+                    "editDate": "2021-01-19T22:11:16.963",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138784",
+                    "order": 14
+                }
+            ],
+            "subjects": [
+                {
+                    "id": "CHOVANI",
+                    "abbrev": "CH",
+                    "name": "Chování",
+                    "kind": "N"
+                },
+                {
+                    "id": "E137423",
+                    "abbrev": "Č",
+                    "name": "Český jazyk a literatura",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137467",
+                    "abbrev": "A",
+                    "name": "Anglický jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E141691",
+                    "abbrev": "Š621",
+                    "name": "Španělský jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137430",
+                    "abbrev": "ZSV",
+                    "name": "Základy společenských věd",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137424",
+                    "abbrev": "D",
+                    "name": "Dějepis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137429",
+                    "abbrev": "Z",
+                    "name": "Zeměpis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137428",
+                    "abbrev": "M",
+                    "name": "Matematika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137425",
+                    "abbrev": "F",
+                    "name": "Fyzika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137426",
+                    "abbrev": "Ch",
+                    "name": "Chemie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137422",
+                    "abbrev": "Bi",
+                    "name": "Biologie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137432",
+                    "abbrev": "VV",
+                    "name": "Výtvarná výchova",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137431",
+                    "abbrev": "HV",
+                    "name": "Hudební výchova",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138784",
+                    "abbrev": "TV-h",
+                    "name": "Tělesná výchova",
+                    "kind": "P"
+                }
+            ],
+            "gradeName": "2. ročník",
+            "grade": "2",
+            "schoolYearName": "2020/2021",
+            "schoolYearOrder": 4,
+            "semesterName": "1. pololetí",
+            "semesterAbbrev": "1. pololet",
+            "semesterOrder": 1,
+            "closed": true,
+            "achievementText": "prospěl(a) s vyznamenáním",
+            "achievement": "passedWithHonors",
+            "marksAverage": 1.15,
+            "absentHours": 0,
+            "excusedHours": 0,
+            "notExcusedHours": 0,
+            "finalVerbalEvaluation": null
+        },
+        {
+            "finalMarks": [
+                {
+                    "markDate": "2021-06-15T12:54:00.157",
+                    "editDate": "2021-06-15T12:54:07.703",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "CHOVANI",
+                    "order": 1
+                },
+                {
+                    "markDate": "2021-06-15T12:54:00.157",
+                    "editDate": "2021-06-15T12:54:07.703",
+                    "markText": "2",
+                    "shortcutToDisplay": "2",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137423",
+                    "order": 2
+                },
+                {
+                    "markDate": "2021-06-18T10:35:44.657",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137467",
+                    "order": 3
+                },
+                {
+                    "markDate": "2021-06-18T11:47:08.453",
+                    "editDate": "2021-06-21T09:16:21.02",
+                    "markText": "2",
+                    "shortcutToDisplay": "2",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E141691",
+                    "order": 4
+                },
+                {
+                    "markDate": "2021-06-14T13:40:04.357",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137430",
+                    "order": 5
+                },
+                {
+                    "markDate": "2021-06-15T12:35:57.717",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137424",
+                    "order": 6
+                },
+                {
+                    "markDate": "2021-06-21T12:47:52.03",
+                    "editDate": "2021-06-22T08:47:04.247",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137429",
+                    "order": 7
+                },
+                {
+                    "markDate": "2021-06-10T08:56:38.287",
+                    "editDate": "2021-06-16T16:14:27.113",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137428",
+                    "order": 8
+                },
+                {
+                    "markDate": "2021-06-19T22:21:35.883",
+                    "editDate": "2021-06-19T22:21:45.52",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137425",
+                    "order": 9
+                },
+                {
+                    "markDate": "2021-06-16T09:11:50.423",
+                    "editDate": "2021-06-16T09:14:51.053",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137426",
+                    "order": 10
+                },
+                {
+                    "markDate": "2021-06-20T22:05:00.34",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137422",
+                    "order": 11
+                },
+                {
+                    "markDate": "2021-06-17T12:54:32.933",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137432",
+                    "order": 12
+                },
+                {
+                    "markDate": "2021-06-20T17:08:38.443",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137431",
+                    "order": 13
+                },
+                {
+                    "markDate": "2021-06-16T20:57:04.123",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138784",
+                    "order": 14
+                }
+            ],
+            "subjects": [
+                {
+                    "id": "CHOVANI",
+                    "abbrev": "CH",
+                    "name": "Chování",
+                    "kind": "N"
+                },
+                {
+                    "id": "E137423",
+                    "abbrev": "Č",
+                    "name": "Český jazyk a literatura",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137467",
+                    "abbrev": "A",
+                    "name": "Anglický jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E141691",
+                    "abbrev": "Š621",
+                    "name": "Španělský jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137430",
+                    "abbrev": "ZSV",
+                    "name": "Základy společenských věd",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137424",
+                    "abbrev": "D",
+                    "name": "Dějepis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137429",
+                    "abbrev": "Z",
+                    "name": "Zeměpis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137428",
+                    "abbrev": "M",
+                    "name": "Matematika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137425",
+                    "abbrev": "F",
+                    "name": "Fyzika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137426",
+                    "abbrev": "Ch",
+                    "name": "Chemie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137422",
+                    "abbrev": "Bi",
+                    "name": "Biologie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137432",
+                    "abbrev": "VV",
+                    "name": "Výtvarná výchova",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137431",
+                    "abbrev": "HV",
+                    "name": "Hudební výchova",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138784",
+                    "abbrev": "TV-h",
+                    "name": "Tělesná výchova",
+                    "kind": "P"
+                }
+            ],
+            "gradeName": "2. ročník",
+            "grade": "2",
+            "schoolYearName": "2020/2021",
+            "schoolYearOrder": 4,
+            "semesterName": "2. pololetí",
+            "semesterAbbrev": "2. pololet",
+            "semesterOrder": 2,
+            "closed": true,
+            "achievementText": "prospěl(a) s vyznamenáním",
+            "achievement": "passedWithHonors",
+            "marksAverage": 1.15,
+            "absentHours": 56,
+            "excusedHours": 56,
+            "notExcusedHours": 0,
+            "finalVerbalEvaluation": null
+        },
+        {
+            "finalMarks": [
+                {
+                    "markDate": "2022-01-18T11:10:14.583",
+                    "editDate": "2022-01-18T11:10:31.22",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "CHOVANI",
+                    "order": 1
+                },
+                {
+                    "markDate": "2022-01-18T11:10:14.583",
+                    "editDate": "2022-01-18T11:10:31.22",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137423",
+                    "order": 2
+                },
+                {
+                    "markDate": "2022-01-20T12:37:24.59",
+                    "editDate": "2022-01-20T12:40:30.1",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137467",
+                    "order": 3
+                },
+                {
+                    "markDate": "2022-01-18T08:12:24.913",
+                    "editDate": "2022-01-19T16:11:43.137",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E142346",
+                    "order": 4
+                },
+                {
+                    "markDate": "2022-01-11T14:21:24.797",
+                    "editDate": "2022-01-11T14:21:33.437",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137430",
+                    "order": 5
+                },
+                {
+                    "markDate": "2022-01-19T11:00:24.2",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138703",
+                    "order": 6
+                },
+                {
+                    "markDate": "2022-01-20T03:50:36.313",
+                    "editDate": "2022-01-20T12:43:00.313",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138701",
+                    "order": 7
+                },
+                {
+                    "markDate": "2022-01-18T15:53:31.393",
+                    "editDate": "2022-01-18T15:54:32.62",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138708",
+                    "order": 8
+                },
+                {
+                    "markDate": "2022-01-17T11:44:56.4",
+                    "editDate": "2022-01-20T13:35:27.97",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138753",
+                    "order": 9
+                },
+                {
+                    "markDate": "2022-01-18T17:19:27.683",
+                    "editDate": "2022-01-19T09:46:10.117",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138706",
+                    "order": 10
+                },
+                {
+                    "markDate": "2022-01-18T15:05:17.213",
+                    "editDate": "2022-01-18T15:05:38.55",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138696",
+                    "order": 11
+                },
+                {
+                    "markDate": "2022-01-18T11:53:55.773",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137427",
+                    "order": 12
+                },
+                {
+                    "markDate": "2022-01-19T17:44:21.72",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137431",
+                    "order": 13
+                },
+                {
+                    "markDate": "2022-01-17T11:31:45.02",
+                    "editDate": "2022-01-17T11:31:51.557",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138784",
+                    "order": 14
+                }
+            ],
+            "subjects": [
+                {
+                    "id": "CHOVANI",
+                    "abbrev": "CH",
+                    "name": "Chování",
+                    "kind": "N"
+                },
+                {
+                    "id": "E137423",
+                    "abbrev": "Č",
+                    "name": "Český jazyk a literatura",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137467",
+                    "abbrev": "A",
+                    "name": "Anglický jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E142346",
+                    "abbrev": "Š631",
+                    "name": "Španělský jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137430",
+                    "abbrev": "ZSV",
+                    "name": "Základy společenských věd",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138703",
+                    "abbrev": "Hi",
+                    "name": "Dějepis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138701",
+                    "abbrev": "Ge",
+                    "name": "Zeměpis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138708",
+                    "abbrev": "Ma",
+                    "name": "Matematika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138753",
+                    "abbrev": "Ph",
+                    "name": "Fyzika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138706",
+                    "abbrev": "Che",
+                    "name": "Chemie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138696",
+                    "abbrev": "Bio",
+                    "name": "Biologie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137427",
+                    "abbrev": "IVT",
+                    "name": "Informatika a výpočetní technika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137431",
+                    "abbrev": "HV",
+                    "name": "Hudební výchova",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138784",
+                    "abbrev": "TV-h",
+                    "name": "Tělesná výchova",
+                    "kind": "P"
+                }
+            ],
+            "gradeName": "3. ročník",
+            "grade": "3",
+            "schoolYearName": "2021/2022",
+            "schoolYearOrder": 5,
+            "semesterName": "1. pololetí",
+            "semesterAbbrev": "1. pololet",
+            "semesterOrder": 1,
+            "closed": true,
+            "achievementText": "prospěl(a) s vyznamenáním",
+            "achievement": "passedWithHonors",
+            "marksAverage": 1,
+            "absentHours": 47,
+            "excusedHours": 47,
+            "notExcusedHours": 0,
+            "finalVerbalEvaluation": null
+        },
+        {
+            "finalMarks": [
+                {
+                    "markDate": "2022-06-16T09:40:37.95",
+                    "editDate": "2022-06-16T13:37:37.633",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "CHOVANI",
+                    "order": 1
+                },
+                {
+                    "markDate": "2022-06-16T09:40:37.95",
+                    "editDate": "2022-06-16T13:37:37.633",
+                    "markText": "2",
+                    "shortcutToDisplay": "2",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137423",
+                    "order": 2
+                },
+                {
+                    "markDate": "2022-06-13T08:11:49.05",
+                    "editDate": "2022-06-13T08:11:54.633",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137467",
+                    "order": 3
+                },
+                {
+                    "markDate": "2022-06-14T08:50:12.597",
+                    "editDate": null,
+                    "markText": "2",
+                    "shortcutToDisplay": "2",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E142346",
+                    "order": 4
+                },
+                {
+                    "markDate": "2022-05-26T14:40:37.613",
+                    "editDate": "2022-05-26T14:40:42.093",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137430",
+                    "order": 5
+                },
+                {
+                    "markDate": "2022-06-16T21:50:44.02",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138703",
+                    "order": 6
+                },
+                {
+                    "markDate": "2022-06-15T15:35:40.247",
+                    "editDate": "2022-06-17T12:41:33.423",
+                    "markText": "2",
+                    "shortcutToDisplay": "2",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138701",
+                    "order": 7
+                },
+                {
+                    "markDate": "2022-06-16T11:06:05.027",
+                    "editDate": "2022-06-16T11:07:05.473",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138708",
+                    "order": 8
+                },
+                {
+                    "markDate": "2022-06-16T19:54:18.517",
+                    "editDate": "2022-06-17T13:52:52.273",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138753",
+                    "order": 9
+                },
+                {
+                    "markDate": "2022-06-13T11:42:42.41",
+                    "editDate": "2022-06-14T14:53:03.45",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138706",
+                    "order": 10
+                },
+                {
+                    "markDate": "2022-06-16T07:40:15.56",
+                    "editDate": "2022-06-16T07:40:22.123",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138696",
+                    "order": 11
+                },
+                {
+                    "markDate": "2022-06-07T12:37:33.62",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137427",
+                    "order": 12
+                },
+                {
+                    "markDate": "2022-06-15T18:25:08.013",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137431",
+                    "order": 13
+                },
+                {
+                    "markDate": "2022-06-14T15:06:02.887",
+                    "editDate": "2022-06-14T15:06:07.59",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138784",
+                    "order": 14
+                }
+            ],
+            "subjects": [
+                {
+                    "id": "CHOVANI",
+                    "abbrev": "CH",
+                    "name": "Chování",
+                    "kind": "N"
+                },
+                {
+                    "id": "E137423",
+                    "abbrev": "Č",
+                    "name": "Český jazyk a literatura",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137467",
+                    "abbrev": "A",
+                    "name": "Anglický jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E142346",
+                    "abbrev": "Š631",
+                    "name": "Španělský jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137430",
+                    "abbrev": "ZSV",
+                    "name": "Základy společenských věd",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138703",
+                    "abbrev": "Hi",
+                    "name": "Dějepis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138701",
+                    "abbrev": "Ge",
+                    "name": "Zeměpis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138708",
+                    "abbrev": "Ma",
+                    "name": "Matematika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138753",
+                    "abbrev": "Ph",
+                    "name": "Fyzika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138706",
+                    "abbrev": "Che",
+                    "name": "Chemie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138696",
+                    "abbrev": "Bio",
+                    "name": "Biologie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137427",
+                    "abbrev": "IVT",
+                    "name": "Informatika a výpočetní technika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137431",
+                    "abbrev": "HV",
+                    "name": "Hudební výchova",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138784",
+                    "abbrev": "TV-h",
+                    "name": "Tělesná výchova",
+                    "kind": "P"
+                }
+            ],
+            "gradeName": "3. ročník",
+            "grade": "3",
+            "schoolYearName": "2021/2022",
+            "schoolYearOrder": 5,
+            "semesterName": "2. pololetí",
+            "semesterAbbrev": "2. pololet",
+            "semesterOrder": 2,
+            "closed": true,
+            "achievementText": "prospěl(a) s vyznamenáním",
+            "achievement": "passedWithHonors",
+            "marksAverage": 1.23,
+            "absentHours": 9,
+            "excusedHours": 9,
+            "notExcusedHours": 0,
+            "finalVerbalEvaluation": null
+        },
+        {
+            "finalMarks": [
+                {
+                    "markDate": "2023-01-19T11:05:40.487",
+                    "editDate": "2023-01-19T11:06:49.553",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "CHOVANI",
+                    "order": 1
+                },
+                {
+                    "markDate": "2023-01-19T11:05:40.487",
+                    "editDate": "2023-01-19T11:06:49.553",
+                    "markText": "2",
+                    "shortcutToDisplay": "2",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137423",
+                    "order": 2
+                },
+                {
+                    "markDate": "2023-01-16T15:56:38.133",
+                    "editDate": "2023-01-16T15:58:41.983",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137467",
+                    "order": 3
+                },
+                {
+                    "markDate": "2023-01-16T10:19:45.463",
+                    "editDate": "2023-01-20T12:19:52.12",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E144912",
+                    "order": 4
+                },
+                {
+                    "markDate": "2023-01-18T13:12:38.13",
+                    "editDate": "2023-01-18T13:12:44.79",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137430",
+                    "order": 5
+                },
+                {
+                    "markDate": "2023-01-20T09:48:07.687",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138703",
+                    "order": 6
+                },
+                {
+                    "markDate": "2023-01-17T19:55:07.39",
+                    "editDate": "2023-01-19T18:06:11.347",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138701",
+                    "order": 7
+                },
+                {
+                    "markDate": "2023-01-20T06:29:51.88",
+                    "editDate": "2023-01-20T08:24:53.277",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138708",
+                    "order": 8
+                },
+                {
+                    "markDate": "2023-01-18T12:17:20.22",
+                    "editDate": "2023-01-20T08:41:10.647",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138753",
+                    "order": 9
+                },
+                {
+                    "markDate": "2023-01-11T15:49:52.02",
+                    "editDate": "2023-01-19T10:18:32.72",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138706",
+                    "order": 10
+                },
+                {
+                    "markDate": "2023-01-19T17:38:04.203",
+                    "editDate": "2023-01-19T17:38:47.503",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138696",
+                    "order": 11
+                },
+                {
+                    "markDate": "2023-01-19T17:43:43.977",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137431",
+                    "order": 12
+                },
+                {
+                    "markDate": "2023-01-11T10:25:16.103",
+                    "editDate": "2023-01-11T10:25:27.103",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138784",
+                    "order": 13
+                }
+            ],
+            "subjects": [
+                {
+                    "id": "CHOVANI",
+                    "abbrev": "CH",
+                    "name": "Chování",
+                    "kind": "N"
+                },
+                {
+                    "id": "E137423",
+                    "abbrev": "Č",
+                    "name": "Český jazyk a literatura",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137467",
+                    "abbrev": "A",
+                    "name": "Anglický jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E144912",
+                    "abbrev": "Š641",
+                    "name": "Španělský jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137430",
+                    "abbrev": "ZSV",
+                    "name": "Základy společenských věd",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138703",
+                    "abbrev": "Hi",
+                    "name": "Dějepis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138701",
+                    "abbrev": "Ge",
+                    "name": "Zeměpis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138708",
+                    "abbrev": "Ma",
+                    "name": "Matematika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138753",
+                    "abbrev": "Ph",
+                    "name": "Fyzika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138706",
+                    "abbrev": "Che",
+                    "name": "Chemie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138696",
+                    "abbrev": "Bio",
+                    "name": "Biologie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137431",
+                    "abbrev": "HV",
+                    "name": "Hudební výchova",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138784",
+                    "abbrev": "TV-h",
+                    "name": "Tělesná výchova",
+                    "kind": "P"
+                }
+            ],
+            "gradeName": "4. ročník",
+            "grade": "4",
+            "schoolYearName": "2022/2023",
+            "schoolYearOrder": 6,
+            "semesterName": "1. pololetí",
+            "semesterAbbrev": "1. pololet",
+            "semesterOrder": 1,
+            "closed": true,
+            "achievementText": "prospěl(a) s vyznamenáním",
+            "achievement": "passedWithHonors",
+            "marksAverage": 1.08,
+            "absentHours": 33,
+            "excusedHours": 33,
+            "notExcusedHours": 0,
+            "finalVerbalEvaluation": null
+        },
+        {
+            "finalMarks": [
+                {
+                    "markDate": "2023-06-14T10:19:58.993",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "CHOVANI",
+                    "order": 1
+                },
+                {
+                    "markDate": "2023-06-14T10:19:58.993",
+                    "editDate": null,
+                    "markText": "2",
+                    "shortcutToDisplay": "2",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137423",
+                    "order": 2
+                },
+                {
+                    "markDate": "2023-06-16T09:55:50.31",
+                    "editDate": "2023-06-19T09:45:16.643",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137467",
+                    "order": 3
+                },
+                {
+                    "markDate": "2023-06-14T08:33:38.597",
+                    "editDate": "2023-06-16T08:58:53.523",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E144912",
+                    "order": 4
+                },
+                {
+                    "markDate": "2023-05-31T09:33:38.22",
+                    "editDate": "2023-05-31T09:33:43.917",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137430",
+                    "order": 5
+                },
+                {
+                    "markDate": "2023-06-14T13:53:28.12",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138703",
+                    "order": 6
+                },
+                {
+                    "markDate": "2023-06-16T17:05:54.307",
+                    "editDate": "2023-06-19T09:48:49.643",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138701",
+                    "order": 7
+                },
+                {
+                    "markDate": "2023-06-16T11:13:48.253",
+                    "editDate": "2023-06-16T11:13:57.047",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138708",
+                    "order": 8
+                },
+                {
+                    "markDate": "2023-06-10T11:43:48.547",
+                    "editDate": "2023-06-19T14:05:41.12",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138753",
+                    "order": 9
+                },
+                {
+                    "markDate": "2023-06-05T09:28:08.307",
+                    "editDate": "2023-06-14T11:56:14.16",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138706",
+                    "order": 10
+                },
+                {
+                    "markDate": "2023-06-16T15:25:44.897",
+                    "editDate": "2023-06-19T09:36:20.243",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138696",
+                    "order": 11
+                },
+                {
+                    "markDate": "2023-06-12T09:12:55.693",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137431",
+                    "order": 12
+                },
+                {
+                    "markDate": "2023-06-14T11:36:11.68",
+                    "editDate": "2023-06-14T11:36:48.32",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138784",
+                    "order": 13
+                }
+            ],
+            "subjects": [
+                {
+                    "id": "CHOVANI",
+                    "abbrev": "CH",
+                    "name": "Chování",
+                    "kind": "N"
+                },
+                {
+                    "id": "E137423",
+                    "abbrev": "Č",
+                    "name": "Český jazyk a literatura",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137467",
+                    "abbrev": "A",
+                    "name": "Anglický jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E144912",
+                    "abbrev": "Š641",
+                    "name": "Španělský jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137430",
+                    "abbrev": "ZSV",
+                    "name": "Základy společenských věd",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138703",
+                    "abbrev": "Hi",
+                    "name": "Dějepis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138701",
+                    "abbrev": "Ge",
+                    "name": "Zeměpis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138708",
+                    "abbrev": "Ma",
+                    "name": "Matematika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138753",
+                    "abbrev": "Ph",
+                    "name": "Fyzika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138706",
+                    "abbrev": "Che",
+                    "name": "Chemie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138696",
+                    "abbrev": "Bio",
+                    "name": "Biologie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137431",
+                    "abbrev": "HV",
+                    "name": "Hudební výchova",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138784",
+                    "abbrev": "TV-h",
+                    "name": "Tělesná výchova",
+                    "kind": "P"
+                }
+            ],
+            "gradeName": "4. ročník",
+            "grade": "4",
+            "schoolYearName": "2022/2023",
+            "schoolYearOrder": 6,
+            "semesterName": "2. pololetí",
+            "semesterAbbrev": "2. pololet",
+            "semesterOrder": 2,
+            "closed": true,
+            "achievementText": "prospěl(a) s vyznamenáním",
+            "achievement": "passedWithHonors",
+            "marksAverage": 1.08,
+            "absentHours": 27,
+            "excusedHours": 27,
+            "notExcusedHours": 0,
+            "finalVerbalEvaluation": null
+        },
+        {
+            "finalMarks": [
+                {
+                    "markDate": "2024-01-17T11:31:56.9",
+                    "editDate": "2024-01-18T14:22:43.84",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "CHOVANI",
+                    "order": 1
+                },
+                {
+                    "markDate": "2024-01-17T11:31:56.9",
+                    "editDate": "2024-01-18T14:22:43.84",
+                    "markText": "2",
+                    "shortcutToDisplay": "2",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137423",
+                    "order": 2
+                },
+                {
+                    "markDate": "2024-01-17T13:37:22.993",
+                    "editDate": "2024-01-17T13:37:28.483",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137467",
+                    "order": 3
+                },
+                {
+                    "markDate": "2024-01-17T13:23:23.863",
+                    "editDate": "2024-01-17T13:24:36.08",
+                    "markText": "2",
+                    "shortcutToDisplay": "2",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E147046",
+                    "order": 4
+                },
+                {
+                    "markDate": "2024-01-16T09:08:23.86",
+                    "editDate": "2024-01-16T09:08:27.91",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137430",
+                    "order": 5
+                },
+                {
+                    "markDate": "2024-01-16T09:07:46.427",
+                    "editDate": null,
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138703",
+                    "order": 6
+                },
+                {
+                    "markDate": "2024-01-18T09:40:49.94",
+                    "editDate": "2024-01-19T12:12:24.557",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138708",
+                    "order": 7
+                },
+                {
+                    "markDate": "2024-01-17T13:18:54.9",
+                    "editDate": "2024-01-17T13:19:13.25",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138753",
+                    "order": 8
+                },
+                {
+                    "markDate": "2024-01-10T17:53:18.95",
+                    "editDate": "2024-01-18T08:41:41.527",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138706",
+                    "order": 9
+                },
+                {
+                    "markDate": "2024-01-18T15:50:56.667",
+                    "editDate": "2024-01-18T15:51:39.127",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138696",
+                    "order": 10
+                },
+                {
+                    "markDate": "2024-01-15T16:13:10.15",
+                    "editDate": "2024-01-15T16:14:06.227",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138784",
+                    "order": 11
+                },
+                {
+                    "markDate": "2024-01-18T11:51:15.44",
+                    "editDate": "2024-01-18T11:51:18.157",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138718",
+                    "order": 12
+                },
+                {
+                    "markDate": "2024-01-17T14:05:01.607",
+                    "editDate": "2024-01-18T14:54:55.87",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E143047",
+                    "order": 13
+                },
+                {
+                    "markDate": "2024-01-18T09:52:41.753",
+                    "editDate": "2024-01-19T12:18:36.76",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E147042",
+                    "order": 14
+                }
+            ],
+            "subjects": [
+                {
+                    "id": "CHOVANI",
+                    "abbrev": "CH",
+                    "name": "Chování",
+                    "kind": "N"
+                },
+                {
+                    "id": "E137423",
+                    "abbrev": "Č",
+                    "name": "Český jazyk a literatura",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137467",
+                    "abbrev": "A",
+                    "name": "Anglický jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E147046",
+                    "abbrev": "Š651",
+                    "name": "Španělský jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137430",
+                    "abbrev": "ZSV",
+                    "name": "Základy společenských věd",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138703",
+                    "abbrev": "Hi",
+                    "name": "Dějepis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138708",
+                    "abbrev": "Ma",
+                    "name": "Matematika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138753",
+                    "abbrev": "Ph",
+                    "name": "Fyzika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138706",
+                    "abbrev": "Che",
+                    "name": "Chemie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138696",
+                    "abbrev": "Bio",
+                    "name": "Biologie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138784",
+                    "abbrev": "TV-h",
+                    "name": "Tělesná výchova",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138718",
+                    "abbrev": "PSI11",
+                    "name": "Seminář z informatiky",
+                    "kind": "P"
+                },
+                {
+                    "id": "E143047",
+                    "abbrev": "PSPH21",
+                    "name": "Physics Seminar",
+                    "kind": "P"
+                },
+                {
+                    "id": "E147042",
+                    "abbrev": "PSMA31",
+                    "name": "Mathematics Seminar",
+                    "kind": "P"
+                }
+            ],
+            "gradeName": "5. ročník",
+            "grade": "5",
+            "schoolYearName": "2023/2024",
+            "schoolYearOrder": 7,
+            "semesterName": "1. pololetí",
+            "semesterAbbrev": "1. pololet",
+            "semesterOrder": 1,
+            "closed": true,
+            "achievementText": "prospěl(a) s vyznamenáním",
+            "achievement": "passedWithHonors",
+            "marksAverage": 1.15,
+            "absentHours": 44,
+            "excusedHours": 44,
+            "notExcusedHours": 0,
+            "finalVerbalEvaluation": null
+        },
+        {
+            "finalMarks": [
+                {
+                    "markDate": "2024-06-14T09:10:44.907",
+                    "editDate": "2024-06-16T19:52:58.59",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "CHOVANI",
+                    "order": 1
+                },
+                {
+                    "markDate": "2024-06-14T09:10:44.907",
+                    "editDate": "2024-06-16T19:52:58.59",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137423",
+                    "order": 2
+                },
+                {
+                    "markDate": "2024-06-17T12:15:52.073",
+                    "editDate": "2024-06-17T12:15:57.137",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137467",
+                    "order": 3
+                },
+                {
+                    "markDate": "2024-06-17T10:45:54.6",
+                    "editDate": "2024-06-19T09:39:35.17",
+                    "markText": "2",
+                    "shortcutToDisplay": "2",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E147046",
+                    "order": 4
+                },
+                {
+                    "markDate": "2024-06-12T09:53:52.29",
+                    "editDate": "2024-06-12T09:53:58.933",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E137430",
+                    "order": 5
+                },
+                {
+                    "markDate": "2024-06-11T14:49:37.233",
+                    "editDate": "2024-06-18T09:40:20.977",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138703",
+                    "order": 6
+                },
+                {
+                    "markDate": "2024-06-17T16:03:23.76",
+                    "editDate": "2024-06-17T16:03:30.693",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138708",
+                    "order": 7
+                },
+                {
+                    "markDate": "2024-06-11T09:26:21.39",
+                    "editDate": "2024-06-12T12:00:17.533",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138753",
+                    "order": 8
+                },
+                {
+                    "markDate": "2024-06-12T09:38:09.847",
+                    "editDate": "2024-06-18T09:46:59.51",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138706",
+                    "order": 9
+                },
+                {
+                    "markDate": "2024-06-18T14:40:47.5",
+                    "editDate": "2024-06-18T14:42:40.11",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138696",
+                    "order": 10
+                },
+                {
+                    "markDate": "2024-06-10T15:57:38.063",
+                    "editDate": "2024-06-10T15:57:43.977",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138784",
+                    "order": 11
+                },
+                {
+                    "markDate": "2024-06-17T15:34:14.053",
+                    "editDate": "2024-06-18T15:45:50.833",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E138718",
+                    "order": 12
+                },
+                {
+                    "markDate": "2024-06-11T14:36:22.59",
+                    "editDate": "2024-06-13T11:05:55.08",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E143047",
+                    "order": 13
+                },
+                {
+                    "markDate": "2024-06-13T09:38:57.523",
+                    "editDate": "2024-06-13T09:39:43.643",
+                    "markText": "1",
+                    "shortcutToDisplay": "1",
+                    "verbalEvaluation": null,
+                    "unclassified": false,
+                    "released": false,
+                    "unevaluated": false,
+                    "recognized": false,
+                    "hasVerbalEvaluation": false,
+                    "subjectId": "E147042",
+                    "order": 14
+                }
+            ],
+            "subjects": [
+                {
+                    "id": "CHOVANI",
+                    "abbrev": "CH",
+                    "name": "Chování",
+                    "kind": "N"
+                },
+                {
+                    "id": "E137423",
+                    "abbrev": "Č",
+                    "name": "Český jazyk a literatura",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137467",
+                    "abbrev": "A",
+                    "name": "Anglický jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E147046",
+                    "abbrev": "Š651",
+                    "name": "Španělský jazyk",
+                    "kind": "P"
+                },
+                {
+                    "id": "E137430",
+                    "abbrev": "ZSV",
+                    "name": "Základy společenských věd",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138703",
+                    "abbrev": "Hi",
+                    "name": "Dějepis",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138708",
+                    "abbrev": "Ma",
+                    "name": "Matematika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138753",
+                    "abbrev": "Ph",
+                    "name": "Fyzika",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138706",
+                    "abbrev": "Che",
+                    "name": "Chemie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138696",
+                    "abbrev": "Bio",
+                    "name": "Biologie",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138784",
+                    "abbrev": "TV-h",
+                    "name": "Tělesná výchova",
+                    "kind": "P"
+                },
+                {
+                    "id": "E138718",
+                    "abbrev": "PSI11",
+                    "name": "Seminář z informatiky",
+                    "kind": "P"
+                },
+                {
+                    "id": "E143047",
+                    "abbrev": "PSPH21",
+                    "name": "Physics Seminar",
+                    "kind": "P"
+                },
+                {
+                    "id": "E147042",
+                    "abbrev": "PSMA31",
+                    "name": "Mathematics Seminar",
+                    "kind": "P"
+                }
+            ],
+            "gradeName": "5. ročník",
+            "grade": "5",
+            "schoolYearName": "2023/2024",
+            "schoolYearOrder": 7,
+            "semesterName": "2. pololetí",
+            "semesterAbbrev": "2. pololet",
+            "semesterOrder": 2,
+            "closed": true,
+            "achievementText": "prospěl(a) s vyznamenáním",
+            "achievement": "passedWithHonors",
+            "marksAverage": 1.08,
+            "absentHours": 92,
+            "excusedHours": 92,
+            "notExcusedHours": 0,
+            "finalVerbalEvaluation": null
+        }
+    ]
+}

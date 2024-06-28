@@ -11,7 +11,7 @@ import messages
 import report
 
 parser = argparse.ArgumentParser(description="Skolni API")
-parser.add_argument("-l", "--login", action="store_true", help="runs the login process")
+# parser.add_argument("-l", "--login", action="store_true", help="runs the login process")
 parser.add_argument(
     "-t", "--timetable", action="store_true", help="prints the timetable"
 )
@@ -59,9 +59,9 @@ logging.basicConfig(level=logging.DEBUG)
 
 
 def main(args):
-    if args.login:
-        token_handler.token_login()
-        return
+    # if args.login:
+    #     token_handler.token_login()
+    #     return
 
     user = user_handler.User()
     user.get_data()

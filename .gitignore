@@ -1,4 +1,4 @@
 token
 credentials
 skolaofflinecli
-__pycache/*
+__pycache__/*
