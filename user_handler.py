@@ -19,7 +19,7 @@ class User:
 
         # if unauthorized or bad credentials tries to get a new token from the refresh token
         if response.status_code == 401 or response.status_code == 400:
-            token_handler.write_token_to_file_from_refresh_token()
+            token_handler.token_login()
             response = requests.get(
                 "https://aplikace.skolaonline.cz/solapi/api/v1/user",
                 headers={
