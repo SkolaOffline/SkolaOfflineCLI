@@ -1,4 +1,4 @@
-kolaOffline-CLI
+# SkolaOffline-CLI
 SkolaOffline is our project which is an unnoficial client for Skola Online. This is the command line interface for the project written in python. The program uses the default endpoint https://aplikace.skolaonline.cz/ so we are sorry for the students from Plzeň.  We decided to write the cli in order to figure out what is necessary for the full version coming soon™. 
 
 ## Installation
@@ -61,4 +61,4 @@ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
 NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-wITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
