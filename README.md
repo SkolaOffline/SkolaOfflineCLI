@@ -1,5 +1,5 @@
 # SkolaOffline-CLI
-SkolaOffline is our project which is an unnoficial client for Skola Online. This is the command line interface for the project written in python. The program uses the default endpoint https://aplikace.skolaonline.cz/ so we are sorry for the students from Plzeň.  We decided to write the cli in order to figure out what is necessary for the full version coming soon™. 
+SkolaOffline is our project which is an unnoficial client for Skola Online. This is the command line interface for the project written in python. The program uses the default endpoint https://aplikace.skolaonline.cz/ so we are sorry for the students from Plzeň.  We decided to write the cli in order to figure out what is necessary for the full version [coming soon™](https://github.com/SkolaOffline/skolaoffline). 
 
 ## Installation
 To install the cli, you need to have python installed on your computer. You can download the latest version of python [here](https://www.python.org/downloads/). After you have installed python, download the zip file from github and extract it. Open a terminal in the folder where you extracted the files and run the following command:
