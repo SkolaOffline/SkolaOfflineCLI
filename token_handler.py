@@ -112,8 +112,7 @@ def write_token_to_file_from_refresh_token():
 def token_login():
     check_credentials_file = os.path.isfile("./credentials")
     if check_credentials_file == False:
-        print("No credentials file found, please create one")
-        return
+        raise FileExistsError("No credentials file found, please create one.\n'credentials' file should contain two lines, first line should be your username and second line should be your password.")
     uzivatel, heslo = open("credentials", "r").readlines()
     write_token_to_file(uzivatel, heslo)
 
