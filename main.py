@@ -54,7 +54,7 @@ parser.add_argument(
 # )
 
 
-logging.basicConfig(level=logging.DEBUG)
+# logging.basicConfig(level=logging.DEBUG)
 
 
 def main(args):

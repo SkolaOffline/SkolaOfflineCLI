@@ -72,14 +72,16 @@ def all_marks_parser(jsn):
 
 
 if __name__ == "__main__":
-    # import user_handler
-    # import requests
-    # import token_handler
-    # import json
+    import user_handler
+    import requests
+    import token_handler
+    import json
 
-    # user = user_handler.User()
-    # user.get_data()
+    user = user_handler.User()
+    user.get_data()
     # get_marks_download(user)
+
+    print(get_marks_download(user))
 
     # all_marks_parser(open('marks_response.json', 'r').read())
     pass

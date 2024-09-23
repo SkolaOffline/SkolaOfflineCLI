@@ -1,5 +1,6 @@
 import requests
 import token_handler
+import user_handler
 import time
 import datetime
 import json
@@ -10,6 +11,7 @@ from dataclasses import dataclass
 # pokud je víkend na pondělí příštího týdne
 def date_from():
     today = datetime.date.today()
+    today += datetime.timedelta(days=7)
     if today.weekday() >= 5:  # Saturday or Sunday
         next_monday = today + datetime.timedelta(days=(7 - today.weekday()))
         return formated_date(next_monday.strftime("%Y-%m-%d"))
@@ -21,6 +23,7 @@ def date_from():
 # vrací datum příštího pátku ve vhodném formátu pro api
 def date_to():
     today = datetime.date.today()
+    today += datetime.timedelta(days=7)
     next_friday = today + datetime.timedelta(days=(4 - today.weekday() + 7) % 7)
     return formated_date(next_friday.strftime("%Y-%m-%d"))
 
@@ -161,11 +164,11 @@ def main():
     #         print(lesson.subject_abbrev, end='\t')
 
     #     print()
-    pass
-    # user = delUser()
-    # print('Timetable')
-    # out = get_timetable(user)
-    # print(out)
+    # pass
+    user = user_handler.User()
+    print('Timetable')
+    out = get_timetable(user)
+    print(out)
 
 
 if __name__ == "__main__":
