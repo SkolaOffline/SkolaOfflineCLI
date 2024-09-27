@@ -11,7 +11,7 @@ from dataclasses import dataclass
 # pokud je víkend na pondělí příštího týdne
 def date_from():
     today = datetime.date.today()
-    today += datetime.timedelta(days=7)
+    # today += datetime.timedelta(days=7)
     if today.weekday() >= 5:  # Saturday or Sunday
         next_monday = today + datetime.timedelta(days=(7 - today.weekday()))
         return formated_date(next_monday.strftime("%Y-%m-%d"))
