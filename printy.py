@@ -24,7 +24,18 @@ def print_timetable(timetable):
         day_array = [""] * 9
         day_array[0] = dny[indx]
         for lesson in day:
-            lesson_text = f"{lesson.subject_abbrev}\n{lesson.classroom_abbrev}\n{lesson.teacher_abbr}"
+            if len(lesson.classroom_abbrev) > 15:
+                classroom_abbrev = "\n".join(
+                    [
+                        lesson.classroom_abbrev[i : i + 15]
+                        for i in range(0, len(lesson.classroom_abbrev), 15)
+                    ]
+                )
+            else:
+                classroom_abbrev = lesson.classroom_abbrev
+            lesson_text = (
+                f"{lesson.subject_abbrev}\n{classroom_abbrev}\n{lesson.teacher_abbr}"
+            )
             # print(lesson.lesson_from, lesson.lesson_to)
             day_array[int(lesson.lesson_from)] = lesson_text
             day_array[int(lesson.lesson_to)] = lesson_text
