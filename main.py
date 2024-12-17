@@ -69,7 +69,7 @@ def main(args):
     #     token_handler.token_logout()
     #     return
 
-    if args.timetable or True:
+    if args.timetable:
         timetabl = timetable.get_timetable(user)
         printy.print_timetable(timetabl)
         # return
