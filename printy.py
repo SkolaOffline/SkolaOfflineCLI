@@ -19,7 +19,7 @@ def print_modules(modules):
 # print rozvrhu v tabulce
 def print_timetable(timetable):
     week_array = [None] * 5
-    dny = ["Pondělí", "Úterý", "Středa", "Čtvrtek", "Pátek"]
+    dny = ["Po", "Út", "St", "Čt", "Pá"]
     for indx, day in enumerate(timetable):
         day_array = [""] * 9
         day_array[0] = dny[indx]
@@ -33,8 +33,19 @@ def print_timetable(timetable):
                 )
             else:
                 classroom_abbrev = lesson.classroom_abbrev
+
+            classroom_abbrev = "\n".join(classroom_abbrev.split(" "))
+
+            if lesson.subject_abbrev is None:
+                lesson.subject_abbrev = ""
+            if lesson.teacher_abbr is None:
+                lesson.teacher_abbr = ""
             lesson_text = (
-                f"{lesson.subject_abbrev}\n{classroom_abbrev}\n{lesson.teacher_abbr}"
+                lesson.subject_abbrev
+                + "\n"
+                + classroom_abbrev
+                + "\n"
+                + lesson.teacher_abbr
             )
             # print(lesson.lesson_from, lesson.lesson_to)
             day_array[int(lesson.lesson_from)] = lesson_text
