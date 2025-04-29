@@ -157,7 +157,7 @@ def print_marks(marks_in_subject):
         print()
         print(f"\033[1m{subject.subject_name.upper()}\033[0m")
         print("Průměr: ", subject.marks_avg)
-        mark_array = []
+        mark_array = [["indx", "datum", "název", "mark", "váha", "avg"]]
         for indx, mark in enumerate(subject.marks):
             mark_date = datetime.datetime.strptime(
                 mark.mark_date.split("T")[0], "%Y-%m-%d"
