@@ -130,9 +130,14 @@ def lesson_parser(hodina):
             lesson.lesson_from = int(hodina["lessonIdTo"])
         except:
             lesson.lesson_from = 0
+
         lesson.lesson_title = hodina["title"]
         lesson.classroom_abbrev = lesson.lesson_title
-        lesson.lesson_description = hodina["description"]
+        try:
+            lesson.lesson_description = hodina["description"]
+        except:
+            lesson.lesson_description = "Lesson description"
+            # pass
 
         return lesson
 
@@ -166,7 +171,7 @@ def main():
     #     print()
     # pass
     user = user_handler.User()
-    print('Timetable')
+    print("Timetable")
     out = get_timetable(user)
     print(out)
 
